@@ -1,0 +1,20 @@
+{
+  "source_line_number": 151715,
+  "raw_line": "5,[Golden hour sunlight filters through the canopy of ancient oak trees, casting dappled amber shadows across the mossy forest floor where a tall prince in polished steel armor and a velvet crown stands waiting],[A humble peasant girl with wild, wind-tousled hair and a rough-spun linen dress steps into the frame from the left edge, her bare feet sinking slightly into the soft earth as she approaches him],[She reaches out to take his gloved hand, her slender fingers intertwining with his armored gauntlet while her gentle eyes lock onto his with a look of quiet reverence],[As their joined hands lift slightly, a cluster of iridescent blue butterflies flutters up from the blooming wildflowers at their feet, drifting toward the towering branches above],[The camera executes a slow, smooth dolly-in that compresses the lush green background, bringing the couple's intimate connection and the warm, hopeful glow of the setting sun into sharp focus]",
+  "segments": [
+    "Golden hour sunlight filters through the canopy of ancient oak trees, casting dappled amber shadows across the mossy forest floor where a tall prince in polished steel armor and a velvet crown stands waiting",
+    "A humble peasant girl with wild, wind-tousled hair and a rough-spun linen dress steps into the frame from the left edge, her bare feet sinking slightly into the soft earth as she approaches him",
+    "She reaches out to take his gloved hand, her slender fingers intertwining with his armored gauntlet while her gentle eyes lock onto his with a look of quiet reverence",
+    "As their joined hands lift slightly, a cluster of iridescent blue butterflies flutters up from the blooming wildflowers at their feet, drifting toward the towering branches above"
+  ],
+  "segments_zh": [
+    "黄金时段的阳光透过古老橡树的树冠，在长满青苔的森林地面上投射出斑驳的琥珀色阴影，一位身着抛光钢甲、头戴天鹅绒王冠的高大王子正站在那里等待着",
+    "一个朴素的农家女孩，头发被风吹乱，穿着粗纺的亚麻连衣裙，从左边缘走进画面，当她接近他时，她的赤脚微微陷进松软的土地里。",
+    "她伸出手，握住他戴着手套的手，纤细的手指与他的铠甲手套交织在一起，温柔的目光锁定着他，带着安静的敬意。",
+    "当他们的双手轻轻抬起时，一群虹彩蓝色的蝴蝶从脚下盛开的野花中翩翩起舞，飘向上方高耸的树枝。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

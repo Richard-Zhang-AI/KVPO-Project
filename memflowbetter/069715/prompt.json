@@ -1,0 +1,20 @@
+{
+  "source_line_number": 69715,
+  "raw_line": "4,[A deep indigo background resembling a starless night sky fills the frame, slowly illuminated from below by the warm, flickering glow of a single unseen candle, casting gentle amber shadows across the surface],[An ancient wooden tablet with a rough, weathered texture rests in the center, its surface gleaming with gold and silver metallic accents that catch the dancing light],[A hand enters from the bottom left edge of the frame, holding a fine-tipped brush dipped in black ink, and begins to execute the first sweeping curve of the letter \"Alif\" in traditional Thuluth script with deliberate precision],[The camera executes a slow, steady dolly-in as the calligrapher's wrist moves rhythmically, connecting the strokes into ornately linked letters that form the sacred name \"Allah,\" while the candle flame continues to pulse, making the gold highlights shimmer dynamically against the dark void]",
+  "segments": [
+    "A deep indigo background resembling a starless night sky fills the frame, slowly illuminated from below by the warm, flickering glow of a single unseen candle, casting gentle amber shadows across the surface",
+    "An ancient wooden tablet with a rough, weathered texture rests in the center, its surface gleaming with gold and silver metallic accents that catch the dancing light",
+    "A hand enters from the bottom left edge of the frame, holding a fine-tipped brush dipped in black ink, and begins to execute the first sweeping curve of the letter \"Alif\" in traditional Thuluth script with deliberate precision",
+    "The camera executes a slow, steady dolly-in as the calligrapher's wrist moves rhythmically, connecting the strokes into ornately linked letters that form the sacred name \"Allah,\" while the candle flame continues to pulse, making the gold highlights shimmer dynamically against the dark void"
+  ],
+  "segments_zh": [
+    "深靛蓝背景就像没有星星的夜空充满了画面，一根看不见的蜡烛的温暖、闪烁的光芒从下面慢慢照亮，在表面投射出柔和的琥珀色阴影",
+    "中央放置着一块古老的木碑，其纹理粗糙、饱经风霜，其表面闪烁着金色和银色的金属装饰，捕捉着舞动的光芒。",
+    "一只手从画面的左下边缘进入，握住一支细尖的画笔，蘸上黑色墨水，并开始以刻意的精确度，以传统的苏鲁斯字体书写字母“Alif”的第一条扫动曲线。",
+    "当书法家的手腕有节奏地移动时，相机执行缓慢、稳定的推入，将笔划连接成华丽的字母，形成神圣的名字“阿拉”，而蜡烛火焰继续脉动，使金色亮点在黑暗的虚空中动态地闪烁。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

@@ -1,0 +1,4 @@
+[seg1] Golden hour sunlight filters through the canopy of ancient banyan trees, casting dappled amber shadows across a narrow dirt path lined with vibrant wildflowers and scattered pebbles
+[seg2] A young boy, approximately eight years old, wearing a faded indigo linen tunic with frayed hems and a woven straw hat tilted over his forehead, crouches low on the earth, his bare feet pressing into the soft soil
+[seg3] He pauses mid-motion, his small hands still holding a smooth grey stone from a recent game, before slowly extending a single finger toward a monarch butterfly resting on a tall stalk of blue cornflower
+[seg4] The butterfly's wings, patterned in vivid orange and black with white spots, tremble slightly as the boy's eyes widen in pure fascination, reflecting the warm glow of the setting sun

@@ -1,0 +1,20 @@
+{
+  "source_line_number": 164655,
+  "raw_line": "4,[a low-angle tracking shot follows a diverse group of animal friends leaping in unison onto the rotating platform of a massive carousel constructed entirely from translucent red gumdrops and glossy chocolate rings, their fur bristling with excitement as they secure themselves on seats made of spun sugar],[as the carousel begins its slow rotation, the camera pans left to reveal a sprawling metropolis built from towering lollipop skyscrapers with swirled candy canes for windows and gumdrop pavement reflecting the soft pastel glow of the ambient light],[high above, fluffy clouds composed of white cotton candy drift lazily through the violet-hued sky, while the mischievous villain, a large gummy bear with a wicked grin and a tiny top hat, steps into the frame from the right edge of the shot, leaning against a licorice lamppost to watch the scene unfold],[the camera executes a smooth, continuous dolly-out movement that widens the perspective, transitioning from the close-up of the laughing animals to a sweeping wide shot that encompasses the entire confectionary cityscape and the looming silhouette of the gummy bear against the horizon]",
+  "segments": [
+    "a low-angle tracking shot follows a diverse group of animal friends leaping in unison onto the rotating platform of a massive carousel constructed entirely from translucent red gumdrops and glossy chocolate rings, their fur bristling with excitement as they secure themselves on seats made of spun sugar",
+    "as the carousel begins its slow rotation, the camera pans left to reveal a sprawling metropolis built from towering lollipop skyscrapers with swirled candy canes for windows and gumdrop pavement reflecting the soft pastel glow of the ambient light",
+    "high above, fluffy clouds composed of white cotton candy drift lazily through the violet-hued sky, while the mischievous villain, a large gummy bear with a wicked grin and a tiny top hat, steps into the frame from the right edge of the shot, leaning against a licorice lamppost to watch the scene unfold",
+    "the camera executes a smooth, continuous dolly-out movement that widens the perspective, transitioning from the close-up of the laughing animals to a sweeping wide shot that encompasses the entire confectionary cityscape and the looming silhouette of the gummy bear against the horizon"
+  ],
+  "segments_zh": [
+    "低角度跟踪镜头拍摄的是一群不同的动物朋友齐声跳到一个巨大的旋转木马的旋转平台上，该旋转木马完全由半透明的红色软糖和光滑的巧克力环制成，当他们将自己固定在由糖丝制成的座椅上时，它们的毛皮因兴奋而竖起",
+    "当旋转木马开始缓慢旋转时，镜头向左平移，展现出一座庞大的大都市，由高耸的棒棒糖摩天大楼组成，窗户上有旋转的拐杖糖，而橡皮糖路面则反射着环境光的柔和光芒。",
+    "高空中，由白色棉花糖组成的蓬松云朵懒洋洋地飘过紫罗兰色的天空，而顽皮的恶棍——一只带着邪恶笑容、戴着小礼帽的大软糖熊，从镜头的右边缘走进画面，靠在甘草灯柱上观看场景的展开",
+    "摄影机执行平稳、连续的推拉动作，扩大了视角，从大笑动物的特写镜头过渡到涵盖整个糖果城市景观和地平线上若隐若现的小熊软糖剪影的广角镜头"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

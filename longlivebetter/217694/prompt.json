@@ -1,0 +1,20 @@
+{
+  "source_line_number": 217694,
+  "raw_line": "5,[Soft morning mist begins to lift from the dew-drenched ferns as a young woman with loose chestnut hair tied in a loose braid steps into the center of the frame, wearing a sleeveless emerald silk dress that catches the diffused light],[She begins to spin slowly on the mossy earth, her green skirt billowing outward in a fluid ripple that mimics the movement of water under the rising sun],[As she completes her rotation, the camera executes a smooth, continuous dolly-out that reveals rows of wicker baskets previously holding dormant soil are now overflowing with vibrant red geraniums and hibiscus, their petals glowing intensely against the soft green backdrop],[The ambient sound shifts subtly from the rustle of wind through leaves to the distant, gentle hum of bees approaching the newly bloomed flowers],[The camera continues its slow, deliberate pull back, widening the field of view to show the full expanse of the garden transitioning from the cool tones of spring to the warm, saturated hues of summer while the woman stands still, watching the blooms]",
+  "segments": [
+    "Soft morning mist begins to lift from the dew-drenched ferns as a young woman with loose chestnut hair tied in a loose braid steps into the center of the frame, wearing a sleeveless emerald silk dress that catches the diffused light",
+    "She begins to spin slowly on the mossy earth, her green skirt billowing outward in a fluid ripple that mimics the movement of water under the rising sun",
+    "As she completes her rotation, the camera executes a smooth, continuous dolly-out that reveals rows of wicker baskets previously holding dormant soil are now overflowing with vibrant red geraniums and hibiscus, their petals glowing intensely against the soft green backdrop",
+    "The ambient sound shifts subtly from the rustle of wind through leaves to the distant, gentle hum of bees approaching the newly bloomed flowers"
+  ],
+  "segments_zh": [
+    "柔和的晨雾开始从沾满露水的蕨类植物中升起，一位留着松散的栗色头发，扎成松散的辫子的年轻女子走进画面中央，穿着一件无袖的翠绿色丝绸连衣裙，捕捉着漫射的光线。",
+    "她开始在长满青苔的大地上慢慢旋转，绿色的裙子以流体波纹向外翻滚，模仿初升太阳下水的运动",
+    "当她完成旋转时，摄像机会执行平稳、连续的推拉，显示出一排排以前装有休眠土壤的柳条篮，现在充满了充满活力的红色天竺葵和木槿，它们的花瓣在柔和的绿色背景下闪烁着强烈的光芒",
+    "环境声音巧妙地从风吹过树叶的沙沙声转变为远处蜜蜂接近新开的花朵时发出的轻柔的嗡嗡声"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

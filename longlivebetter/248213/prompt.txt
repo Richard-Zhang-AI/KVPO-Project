@@ -1,0 +1,4 @@
+[seg1] A medium shot frames a moss-covered stone in a sun-dappled forest clearing, where a single golden leaf spirals slowly from the upper left branch, its veins catching the dappled light as it descends toward the center. The camera remains completely static while the background foliage shifts imperceptibly in the breeze, creating a living tapestry of green and amber hues that contrasts with the sharp focus on the falling leaf.
+[seg2] As the leaf settles onto the rough, wet surface of the stone, concentric ripples expand outward across a shallow pool of water at the base, distorting the reflection of the surrounding trees.
+[seg3] The sound of dry leaves rustling in the wind blends with the soft, rhythmic lap of water against the rock, establishing a serene auditory backdrop.
+[seg4] A second, smaller leaf drifts into the frame from the right edge, joining the first on the stone before both are caught in the gentle current of the rippling water. slow dolly-in

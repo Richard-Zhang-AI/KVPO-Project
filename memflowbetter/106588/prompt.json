@@ -1,0 +1,20 @@
+{
+  "source_line_number": 106588,
+  "raw_line": "4,[A sweeping high-angle crane shot descends slowly over the cobblestone plaza of Luxembourg City, capturing the grandeur of the historic architecture where weathered limestone facades stand shoulder-to-shoulder with sleek modern glass structures, while the vibrant red and white Luxembourg City flag hangs prominently from a wrought-iron balcony on the left side of the frame],[As the camera begins a smooth lateral drift to the right, the wind catches the flag's fabric, causing the red and white stripes to ripple and flutter dynamically against a backdrop of deep cobalt sky and scattered cumulus clouds, revealing glimpses of lush green parks that weave through the urban canyon below],[The lens continues a deliberate slow zoom forward, shifting focus from the broad cityscape to the specific texture of the flag where bright sunlight strikes the material, highlighting the intricate weave of the cotton blend and the subtle sheen that dances across the folds as the fabric sways],[A soft ambient hum of distant city traffic blends with the gentle rustling of the flag, creating an immersive atmosphere of crisp, sun-drenched clarity, static wide shot]",
+  "segments": [
+    "A sweeping high-angle crane shot descends slowly over the cobblestone plaza of Luxembourg City, capturing the grandeur of the historic architecture where weathered limestone facades stand shoulder-to-shoulder with sleek modern glass structures, while the vibrant red and white Luxembourg City flag hangs prominently from a wrought-iron balcony on the left side of the frame",
+    "As the camera begins a smooth lateral drift to the right, the wind catches the flag's fabric, causing the red and white stripes to ripple and flutter dynamically against a backdrop of deep cobalt sky and scattered cumulus clouds, revealing glimpses of lush green parks that weave through the urban canyon below",
+    "The lens continues a deliberate slow zoom forward, shifting focus from the broad cityscape to the specific texture of the flag where bright sunlight strikes the material, highlighting the intricate weave of the cotton blend and the subtle sheen that dances across the folds as the fabric sways",
+    "A soft ambient hum of distant city traffic blends with the gentle rustling of the flag, creating an immersive atmosphere of crisp, sun-drenched clarity, static wide shot"
+  ],
+  "segments_zh": [
+    "一架高角度起重机镜头缓缓降落在卢森堡市的鹅卵石广场上空，捕捉到了历史建筑的宏伟，风化的石灰石外墙与时尚的现代玻璃结构并肩而立，而充满活力的红白相间的卢森堡市国旗则从画面左侧的锻铁阳台上醒目地悬挂着。",
+    "当相机开始向右平滑横向漂移时，风吹过旗帜的织物，导致红色和白色条纹在深钴色天空和分散的积云的背景下动态地波动和飘动，露出下面城市峡谷中郁郁葱葱的绿色公园的一瞥",
+    "镜头继续缓慢向前变焦，将焦点从广阔的城市景观转移到旗帜的特定纹理上，明亮的阳光照射在材料上，突出了棉混纺的复杂编织以及随着织物摇摆而在褶皱上舞动的微妙光泽。",
+    "远处城市交通的柔和环境嗡嗡声与旗帜轻柔的沙沙声融为一体，营造出一种清晰、阳光普照的清晰度、静态广角镜头的身临其境的氛围"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

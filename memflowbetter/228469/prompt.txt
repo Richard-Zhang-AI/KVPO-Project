@@ -1,0 +1,4 @@
+[seg1] sunlight filters through the high arches of the crumbling Roman Colosseum, illuminating patches of vibrant green moss clinging to the weathered limestone blocks, where clusters of delicate white wildflowers push through the fissures with soft resilience
+[seg2] a gentle breeze sweeps across the arena floor, causing the flower petals to sway rhythmically while rusted iron spears and broken swords lie scattered in the dust, their surfaces pitted and dark with age
+[seg3] the camera tilts slowly upward to reveal weathered skulls resting atop tattered fabric helmets that catch the wind, their textures rough and frayed against the backdrop of decaying stone
+[seg4] a large bird emerges from the deep shadows of an upper tier on the left, its wings beating silently before it launches into the air, casting a fleeting, shifting shadow across the foreground as it ascends

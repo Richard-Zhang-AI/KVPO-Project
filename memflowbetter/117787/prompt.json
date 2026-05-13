@@ -1,0 +1,20 @@
+{
+  "source_line_number": 117787,
+  "raw_line": "5,[A sleek black sedan glides smoothly along the wet asphalt of a Tokyo street at night, its chrome bumper reflecting the streaks of passing taillights, the camera tracking steadily alongside the vehicle],[The car slows to a halt near a crowded sidewalk where a young woman with long, flowing black hair steps out from the driver's side door, her kimono adorned with vibrant cherry blossom patterns rustling softly as she adjusts the silk fabric],[She pauses briefly to peer curiously at a street vendor's illuminated stall, her eyes widening slightly as she examines the colorful trinkets displayed under a canopy of warm yellow bulbs, while the surrounding crowd swirls around her in a blur of motion],[Towering skyscrapers and the iconic Shibuya Crossing loom in the background, bathed in a kaleidoscope of neon pinks, electric blues, and deep purples that cast long, dancing reflections on the rain-slicked pavement],[The camera executes a slow, continuous dolly-in toward the woman's face, capturing the subtle interplay of neon glow and shadow on her features before settling into a medium-wide shot that frames her against the chaotic yet mesmerizing urban backdrop]",
+  "segments": [
+    "A sleek black sedan glides smoothly along the wet asphalt of a Tokyo street at night, its chrome bumper reflecting the streaks of passing taillights, the camera tracking steadily alongside the vehicle",
+    "The car slows to a halt near a crowded sidewalk where a young woman with long, flowing black hair steps out from the driver's side door, her kimono adorned with vibrant cherry blossom patterns rustling softly as she adjusts the silk fabric",
+    "She pauses briefly to peer curiously at a street vendor's illuminated stall, her eyes widening slightly as she examines the colorful trinkets displayed under a canopy of warm yellow bulbs, while the surrounding crowd swirls around her in a blur of motion",
+    "Towering skyscrapers and the iconic Shibuya Crossing loom in the background, bathed in a kaleidoscope of neon pinks, electric blues, and deep purples that cast long, dancing reflections on the rain-slicked pavement"
+  ],
+  "segments_zh": [
+    "夜间，一辆时尚的黑色轿车沿着东京街道潮湿的柏油路平稳地滑行，镀铬保险杠反射着经过的尾灯的条纹，摄像机沿着车辆稳定地跟踪",
+    "汽车在拥挤的人行道附近缓缓停了下来，一名留着飘逸黑发的年轻女子从驾驶员侧车门走出来，她的和服上装饰着鲜艳的樱花图案，在整理丝绸织物时发出轻轻的沙沙声。",
+    "她短暂地停下来，好奇地看着街头小贩的灯光摊位，当她检查在温暖的黄色灯泡天篷下展示的色彩缤纷的小饰品时，她的眼睛微微睁大，而周围的人群则在她周围旋转，动作模糊",
+    "高耸的摩天大楼和标志性的涩谷十字路口在背景中若隐若现，沐浴在霓虹粉、铁蓝色和深紫色的万花筒中，在被雨水打湿的人行道上投射出长长的、舞动的倒影"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

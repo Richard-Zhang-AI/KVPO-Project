@@ -1,0 +1,20 @@
+{
+  "source_line_number": 158314,
+  "raw_line": "5,[A sleek metallic robot with brushed aluminum plating and glowing cyan circuitry drifts through the center of a crystal-clear alpine lake, its surface reflecting the dappled sunlight filtering through the dense canopy above, while the camera begins a slow low-angle tilt upward to reveal the towering pines framing the water's edge],[The robot extends a flexible, fin-like limb from its shoulder assembly to steer through the calm surface, creating concentric ripples that distort the submerged pebbles and merge with the rising mist hovering just above the waterline],[Sunlight pierces the thick forest foliage in shifting shafts of amber and gold, casting dynamic patterns of light and deep shadow across the robot's articulated joints as it glides effortlessly past the submerged roots of ancient trees],[Tall conifers surround the tranquil expanse, their dark green needles contrasting with the azure water, while the robot's smooth metallic skin catches the glare of the sun, emphasizing the texture of its protective exoskeleton against the soft, diffused background],[The camera continues its slow upward tilt, transitioning the focus from the robot's submerged lower body to its upper torso as it adjusts its course, allowing the viewer to see the interplay between the mechanical precision of the swimmer and the organic chaos of the surrounding forest and mist]",
+  "segments": [
+    "A sleek metallic robot with brushed aluminum plating and glowing cyan circuitry drifts through the center of a crystal-clear alpine lake, its surface reflecting the dappled sunlight filtering through the dense canopy above, while the camera begins a slow low-angle tilt upward to reveal the towering pines framing the water's edge",
+    "The robot extends a flexible, fin-like limb from its shoulder assembly to steer through the calm surface, creating concentric ripples that distort the submerged pebbles and merge with the rising mist hovering just above the waterline",
+    "Sunlight pierces the thick forest foliage in shifting shafts of amber and gold, casting dynamic patterns of light and deep shadow across the robot's articulated joints as it glides effortlessly past the submerged roots of ancient trees",
+    "Tall conifers surround the tranquil expanse, their dark green needles contrasting with the azure water, while the robot's smooth metallic skin catches the glare of the sun, emphasizing the texture of its protective exoskeleton against the soft, diffused background"
+  ],
+  "segments_zh": [
+    "一个光滑的金属机器人，配有拉丝铝镀层和发光的青色电路，漂浮在水晶般清澈的高山湖中心，它的表面反射着透过上面茂密的树冠过滤的斑驳的阳光，而相机开始缓慢地低角度向上倾斜，露出水边的高耸松树。",
+    "机器人从肩部组件上伸出灵活的鳍状肢体，在平静的水面上行驶，产生同心波纹，使水下的卵石变形，并与在水线上方盘旋的升腾雾气融为一体。",
+    "阳光透过琥珀色和金色的移动轴穿透茂密的森林树叶，在机器人轻松滑过淹没的古树根部时，在机器人的铰接关节上投射出动态的光影和深影图案",
+    "高大的针叶树环绕着宁静的广阔空间，深绿色的针叶与蔚蓝的海水形成鲜明对比，而机器人光滑的金属皮肤捕捉着耀眼的阳光，在柔软、漫射的背景下强调了其保护性外骨骼的纹理"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

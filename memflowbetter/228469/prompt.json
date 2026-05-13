@@ -1,0 +1,20 @@
+{
+  "source_line_number": 228469,
+  "raw_line": "5,[sunlight filters through the high arches of the crumbling Roman Colosseum, illuminating patches of vibrant green moss clinging to the weathered limestone blocks, where clusters of delicate white wildflowers push through the fissures with soft resilience],[a gentle breeze sweeps across the arena floor, causing the flower petals to sway rhythmically while rusted iron spears and broken swords lie scattered in the dust, their surfaces pitted and dark with age],[the camera tilts slowly upward to reveal weathered skulls resting atop tattered fabric helmets that catch the wind, their textures rough and frayed against the backdrop of decaying stone],[a large bird emerges from the deep shadows of an upper tier on the left, its wings beating silently before it launches into the air, casting a fleeting, shifting shadow across the foreground as it ascends],[the shot continues its slow upward drift, following the bird's trajectory until it vanishes against the pale sky, leaving the quiet, overgrown arena bathed in dappled light, slow upward crane drift]",
+  "segments": [
+    "sunlight filters through the high arches of the crumbling Roman Colosseum, illuminating patches of vibrant green moss clinging to the weathered limestone blocks, where clusters of delicate white wildflowers push through the fissures with soft resilience",
+    "a gentle breeze sweeps across the arena floor, causing the flower petals to sway rhythmically while rusted iron spears and broken swords lie scattered in the dust, their surfaces pitted and dark with age",
+    "the camera tilts slowly upward to reveal weathered skulls resting atop tattered fabric helmets that catch the wind, their textures rough and frayed against the backdrop of decaying stone",
+    "a large bird emerges from the deep shadows of an upper tier on the left, its wings beating silently before it launches into the air, casting a fleeting, shifting shadow across the foreground as it ascends"
+  ],
+  "segments_zh": [
+    "阳光透过摇摇欲坠的罗马斗兽场的高拱门，照亮了附着在风化石灰石块上的生机勃勃的绿色苔藓，一簇簇精致的白色野花以柔软的弹性从裂缝中伸出",
+    "微风拂过竞技场的地面，花瓣有节奏地摇曳，锈迹斑斑的铁矛和断剑散落在灰尘中，表面坑坑洼洼，因年代久远而发黑。",
+    "镜头慢慢向上倾斜，露出了风化的头骨，这些头骨搁在破烂的织物头盔上，可以迎风而行，在腐烂的石头背景下，它们的纹理粗糙且磨损。",
+    "一只大鸟从左边上层的深深阴影中出现，它的翅膀在飞向空中之前无声地拍动，在它上升的过程中在前景上投下一个转瞬即逝、不断变化的阴影"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

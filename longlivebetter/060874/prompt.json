@@ -1,0 +1,20 @@
+{
+  "source_line_number": 60874,
+  "raw_line": "4,[A colossal starship with a polished titanium hull drifts silently through the infinite void, its surface etched with faint circuitry patterns that catch the distant starlight, while the camera executes a slow, steady dolly forward to reveal the sheer scale of the vessel against the backdrop of swirling violet and teal nebulae],[The ship's primary thrusters at the rear suddenly ignite with a violent roar, erupting into a brilliant, superheated plume of ionized blue-white gas that stretches backward in a luminous ribbon, casting dynamic, high-contrast reflections across the curved metallic plates of the hull as the camera tilts slightly upward to follow the rising exhaust],[Tiny, diamond-dust specks of debris from the thruster blast are illuminated in sharp focus against the deep blackness, creating a sparkling halo effect that transitions seamlessly into the wider expanse of the cosmos where distant suns flare with intense orange and crimson hues, and the camera continues its smooth lateral pan to the right, maintaining the ship's graceful trajectory as it accelerates into the unknown],[The interplay between the cold, dark shadows of the ship's recessed panels and the searing brilliance of the engine glow creates a dramatic chiaroscuro effect, while the sound of a low-frequency hum builds into a deafening roar as the vessel pushes deeper into the starfield, and the shot concludes with a continued slow dolly-in that emphasizes the isolation and power of the spacecraft moving through the eternal night]",
+  "segments": [
+    "A colossal starship with a polished titanium hull drifts silently through the infinite void, its surface etched with faint circuitry patterns that catch the distant starlight, while the camera executes a slow, steady dolly forward to reveal the sheer scale of the vessel against the backdrop of swirling violet and teal nebulae",
+    "The ship's primary thrusters at the rear suddenly ignite with a violent roar, erupting into a brilliant, superheated plume of ionized blue-white gas that stretches backward in a luminous ribbon, casting dynamic, high-contrast reflections across the curved metallic plates of the hull as the camera tilts slightly upward to follow the rising exhaust",
+    "Tiny, diamond-dust specks of debris from the thruster blast are illuminated in sharp focus against the deep blackness, creating a sparkling halo effect that transitions seamlessly into the wider expanse of the cosmos where distant suns flare with intense orange and crimson hues, and the camera continues its smooth lateral pan to the right, maintaining the ship's graceful trajectory as it accelerates into the unknown",
+    "The interplay between the cold, dark shadows of the ship's recessed panels and the searing brilliance of the engine glow creates a dramatic chiaroscuro effect, while the sound of a low-frequency hum builds into a deafening roar as the vessel pushes deeper into the starfield, and the shot concludes with a continued slow dolly-in that emphasizes the isolation and power of the spacecraft moving through the eternal night"
+  ],
+  "segments_zh": [
+    "一艘拥有抛光钛金属船体的巨大星舰静静地漂浮在无限的虚空中，其表面刻有微弱的电路图案，可以捕捉到遥远的星光，而相机则缓慢而稳定地向前移动，以在旋转的紫色和青色星云的背景下展现飞船的巨大规模。",
+    "飞船后部的主推进器突然点燃，发出剧烈的轰鸣声，喷发出明亮、过热的电离蓝白色气体羽流，以发光丝带的形式向后延伸，当摄像机稍微向上倾斜以追随上升的废气时，在船体的弯曲金属板上投下动态、高对比度的反射。",
+    "推进器爆炸产生的微小钻石尘碎片在深邃的黑暗中被清晰地照亮，产生闪闪发光的光晕效果，无缝过渡到更广阔的宇宙，远处的太阳闪耀着强烈的橙色和深红色调，摄像机继续向右平滑横向平移，在飞船加速进入未知世界时保持着优雅的轨迹。",
+    "飞船凹进面板的冷暗阴影和发动机光芒的灼热光芒之间的相互作用产生了戏剧性的明暗对比效果，而当飞船深入星域时，低频嗡嗡声会形成震耳欲聋的轰鸣声，镜头以持续缓慢的推拉结束，强调了航天器在永恒的黑夜中移动的孤立性和力量。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

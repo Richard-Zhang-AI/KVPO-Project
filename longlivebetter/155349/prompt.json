@@ -1,0 +1,20 @@
+{
+  "source_line_number": 155349,
+  "raw_line": "6,[grainy 16mm film stock from 1983 captures a sprawling concrete metropolis engulfed in chaos as a colossal mushroom cloud rises in the far distance, its white and grey plume distorting the sky above],[towering skyscrapers crumble into dust and twisted rebar while thick black smoke billows upward, mixing with falling debris that rains down onto the asphalt streets below],[panicked civilians in frayed coats and torn trousers sprint in every direction, their faces twisted in terror, while emergency vehicles with flashing red and blue lights weave frantically through the gridlock],[a military transport helicopter enters the frame from the upper left, its rotors creating a violent downdraft that kicks up swirling clouds of particulate matter],[the aircraft's searchlight cuts a harsh beam through the smoky haze, illuminating the grim expressions of fleeing people and casting long, eerie diagonal shadows across the crumbling facades of the buildings],[the camera executes a slow, steady tilt downward from the sky to the street level, gradually revealing the full scale of the destruction and the desperate human struggle amidst the rubble, slow tilt-down]",
+  "segments": [
+    "grainy 16mm film stock from 1983 captures a sprawling concrete metropolis engulfed in chaos as a colossal mushroom cloud rises in the far distance, its white and grey plume distorting the sky above",
+    "towering skyscrapers crumble into dust and twisted rebar while thick black smoke billows upward, mixing with falling debris that rains down onto the asphalt streets below",
+    "panicked civilians in frayed coats and torn trousers sprint in every direction, their faces twisted in terror, while emergency vehicles with flashing red and blue lights weave frantically through the gridlock",
+    "a military transport helicopter enters the frame from the upper left, its rotors creating a violent downdraft that kicks up swirling clouds of particulate matter"
+  ],
+  "segments_zh": [
+    "1983 年的颗粒状 16 毫米胶片捕捉到了一座庞大的混凝土大都市陷入混乱，巨大的蘑菇云在远处升起，其白色和灰色的羽毛扭曲了头顶的天空",
+    "高耸的摩天大楼崩塌成灰尘和扭曲的钢筋，浓烟滚滚向上，与掉落的碎片混合在一起，落到下面的沥青街道上",
+    "惊慌失措的平民穿着磨损的外套和撕裂的裤子，向四面八方冲刺，他们的脸因恐惧而扭曲，而闪烁着红色和蓝色灯光的紧急车辆在交通堵塞中疯狂地穿行",
+    "一架军用运输直升机从左上角进入画面，其旋翼产生猛烈的下沉气流，激起颗粒物的漩涡云"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

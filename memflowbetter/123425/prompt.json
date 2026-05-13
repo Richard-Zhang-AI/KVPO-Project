@@ -1,0 +1,20 @@
+{
+  "source_line_number": 123425,
+  "raw_line": "5,[A close-up static shot focuses on a hand with manicured nails gripping the edge of a sleek smartphone, the device's cool glass surface reflecting the faint ambient light of the room],[The thumb swipes rhythmically across the screen, navigating through a feed of generic images before halting abruptly on a vibrant post showcasing a friend's lavish birthday party],[The screen illuminates the user's face, revealing eyes that widen slightly as they read glowing comments of admiration, while the background remains a soft, out-of-focus blur of warm interior tones],[The camera slowly dollies in toward the screen, emphasizing the sharp, high-contrast details of the opulent decorations and guests in finery against the dimly lit, textured fabric of the user's dark sweater sleeve],[The user's expression shifts from casual scrolling to deep contemplation, leaning their chin toward their palm as they absorb the visual details, the bright blue light of the display casting dynamic shadows across their cheekbones and highlighting the subtle tension in their jawline]",
+  "segments": [
+    "A close-up static shot focuses on a hand with manicured nails gripping the edge of a sleek smartphone, the device's cool glass surface reflecting the faint ambient light of the room",
+    "The thumb swipes rhythmically across the screen, navigating through a feed of generic images before halting abruptly on a vibrant post showcasing a friend's lavish birthday party",
+    "The screen illuminates the user's face, revealing eyes that widen slightly as they read glowing comments of admiration, while the background remains a soft, out-of-focus blur of warm interior tones",
+    "The camera slowly dollies in toward the screen, emphasizing the sharp, high-contrast details of the opulent decorations and guests in finery against the dimly lit, textured fabric of the user's dark sweater sleeve"
+  ],
+  "segments_zh": [
+    "特写静态镜头聚焦于一只手，指甲修剪整齐，紧握时尚智能手机的边缘，该设备凉爽的玻璃表面反射着房间微弱的环境光",
+    "拇指有节奏地在屏幕上滑动，浏览一系列通用图像，然后突然停在展示朋友奢华生日派对的充满活力的帖子上",
+    "屏幕照亮了用户的脸，当他们读到钦佩的评论时，眼睛会稍微睁大，而背景仍然是温暖的室内色调的柔和、失焦模糊",
+    "镜头慢慢地移向屏幕，在用户深色毛衣袖子的昏暗纹理织物的衬托下，强调华丽装饰和盛装宾客的锐利、高对比度细节"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

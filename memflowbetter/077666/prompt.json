@@ -1,0 +1,20 @@
+{
+  "source_line_number": 77666,
+  "raw_line": "5,[The camera begins with a static wide shot of the desolate lunar surface where the stark, unfiltered sunlight casts long, sharp shadows stretching across the grey regolith, highlighting the scattered boulders and deep craters under a featureless black sky],[An astronaut in a bulky white spacesuit with gold-leafed visors enters the frame from the left edge, their heavy magnetic boots crunching softly on the loose soil as they approach a specific test site marked by a cluster of dark rocks],[The astronaut kneels down, the fabric of their suit rippling slightly under the vacuum conditions, and carefully lowers a small, silver cylindrical device into a pre-drilled hole in the ground, ensuring it sits securely amidst the dust],[As the astronaut's gloved hand withdraws from the device, the camera slowly dollies forward to reveal the intricate texture of the lunar soil settling around the new object, while the second astronaut remains standing in the background, observing the procedure with a slight tilt of their helmeted head],[The scene concludes with a gentle slow-zoom in, focusing tightly on the sealed interface between the device and the regolith as the windless silence of the moon envelops the frame]",
+  "segments": [
+    "The camera begins with a static wide shot of the desolate lunar surface where the stark, unfiltered sunlight casts long, sharp shadows stretching across the grey regolith, highlighting the scattered boulders and deep craters under a featureless black sky",
+    "An astronaut in a bulky white spacesuit with gold-leafed visors enters the frame from the left edge, their heavy magnetic boots crunching softly on the loose soil as they approach a specific test site marked by a cluster of dark rocks",
+    "The astronaut kneels down, the fabric of their suit rippling slightly under the vacuum conditions, and carefully lowers a small, silver cylindrical device into a pre-drilled hole in the ground, ensuring it sits securely amidst the dust",
+    "As the astronaut's gloved hand withdraws from the device, the camera slowly dollies forward to reveal the intricate texture of the lunar soil settling around the new object, while the second astronaut remains standing in the background, observing the procedure with a slight tilt of their helmeted head"
+  ],
+  "segments_zh": [
+    "摄影机以静态广角镜头开始拍摄荒凉的月球表面，未经过滤的阳光在灰色的风化层上投下长而锐利的阴影，突出了毫无特色的黑色天空下分散的巨石和深深的陨石坑",
+    "一名宇航员穿着笨重的白色太空服，戴着金箔面罩，从左边缘进入画面，当他们接近一个由一堆黑色岩石标记的特定测试地点时，他们沉重的磁性靴子在松散的土壤上轻轻嘎吱作响。",
+    "宇航员跪下，他们的宇航服面料在真空条件下轻微波动，然后小心地将一个小型银色圆柱形装置放入预先钻好的地面孔中，确保它牢固地坐落在灰尘中",
+    "当宇航员戴上手套的手从设备中退出时，摄像机慢慢向前移动，以显示新物体周围月球土壤的复杂纹理，而第二名宇航员仍然站在背景中，稍微倾斜戴着头盔的头部观察这一过程。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

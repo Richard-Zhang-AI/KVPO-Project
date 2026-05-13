@@ -1,0 +1,20 @@
+{
+  "source_line_number": 241279,
+  "raw_line": "5,[a high-angle drone shot captures a weathered human skeleton resting amidst a dense carpet of vibrant wildflowers under a hazy afternoon sun, the camera begins a slow, smooth tilt downward while the gentle breeze causes the petals to sway in a rhythmic, undulating wave across the frame],[as the perspective lowers, a delicate orange butterfly enters from the top right edge of the frame, fluttering its iridescent wings before alighting softly onto the hollow eye socket of the skull, casting a tiny, shifting shadow against the stark white bone],[the lens continues its gradual descent, rack focusing from the blurred sea of flowers in the foreground to the sharp, intricate textures of the ribcage and the vivid contrast of the butterfly's wings against the pale femur],[the amber light filters through the canopy above, creating long diagonal shadows that stretch across the cracked earth, emphasizing the silent interplay of decay and fleeting life],[the camera completes its arc into a tight, low-angle close-up of the skull and the resting insect, holding the shot static to let the subtle movement of the breeze animate the scene, slow dolly-in]",
+  "segments": [
+    "a high-angle drone shot captures a weathered human skeleton resting amidst a dense carpet of vibrant wildflowers under a hazy afternoon sun, the camera begins a slow, smooth tilt downward while the gentle breeze causes the petals to sway in a rhythmic, undulating wave across the frame",
+    "as the perspective lowers, a delicate orange butterfly enters from the top right edge of the frame, fluttering its iridescent wings before alighting softly onto the hollow eye socket of the skull, casting a tiny, shifting shadow against the stark white bone",
+    "the lens continues its gradual descent, rack focusing from the blurred sea of flowers in the foreground to the sharp, intricate textures of the ribcage and the vivid contrast of the butterfly's wings against the pale femur",
+    "the amber light filters through the canopy above, creating long diagonal shadows that stretch across the cracked earth, emphasizing the silent interplay of decay and fleeting life"
+  ],
+  "segments_zh": [
+    "高角度无人机镜头捕捉到了一个饱经风霜的人体骨架，在朦胧的午后阳光下，休息在茂密的野花地毯中，相机开始缓慢、平稳地向下倾斜，而微风使花瓣在画面上有节奏地、起伏地摇摆。",
+    "随着视角降低，一只精致的橙色蝴蝶从画面右上边缘进入，拍动着彩虹色的翅膀，然后轻轻落在头骨的空心眼窝上，在鲜明的白色骨头上投射出微小的、移动的阴影",
+    "镜头继续逐渐下降，从前景模糊的花海到胸腔清晰、复杂的纹理，以及蝴蝶翅膀与苍白股骨的生动对比",
+    "琥珀色的光线透过上方的天篷，形成长长的对角线阴影，延伸到开裂的大地上，强调了腐烂和转瞬即逝的生命的无声相互作用。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_line_number": 106224,
+  "raw_line": "6,[A high-altitude crane shot captures the sprawling grid of Chicago at twilight, where the amber glow of streetlamps contrasts sharply with the encroaching violet bruise of a massive firestorm rolling in from the western horizon],[The Willis Tower stands silhouetted against the smoke, its glass facade reflecting the chaotic flicker of dying power as individual windows blink erratically in a rhythmic strobe of white and black],[To the left, the John Hancock Center's steel skin absorbs the fading light, its darkened surface losing the sharp geometric reflections that defined it moments before],[Thick, churning columns of black smoke and orange flame rise from the distant skyline, casting long, ominous diagonal shadows across the bustling avenues below where tiny car headlights struggle through the thickening gloom],[A military-style helicopter materializes from the dense smoke at the right edge of the frame, its silhouette emerging slowly as the rotors begin to spin, kicking up a visible vortex of dust and ash that trails behind it],[The camera executes a slow, deliberate tilt downward, guiding the viewer's eye from the towering skyscrapers to the street level where the inferno's heat seems to warp the air, emphasizing the terrifying scale of the approaching disaster]",
+  "segments": [
+    "A high-altitude crane shot captures the sprawling grid of Chicago at twilight, where the amber glow of streetlamps contrasts sharply with the encroaching violet bruise of a massive firestorm rolling in from the western horizon",
+    "The Willis Tower stands silhouetted against the smoke, its glass facade reflecting the chaotic flicker of dying power as individual windows blink erratically in a rhythmic strobe of white and black",
+    "To the left, the John Hancock Center's steel skin absorbs the fading light, its darkened surface losing the sharp geometric reflections that defined it moments before",
+    "Thick, churning columns of black smoke and orange flame rise from the distant skyline, casting long, ominous diagonal shadows across the bustling avenues below where tiny car headlights struggle through the thickening gloom"
+  ],
+  "segments_zh": [
+    "高空起重机镜头捕捉到了暮色中芝加哥广阔的网格，路灯的琥珀色光芒与从西方地平线滚滚而来的巨大火焰风暴的紫色瘀伤形成鲜明对比",
+    "威利斯大厦在烟雾的衬托下矗立着剪影，它的玻璃幕墙反射着垂死权力的混乱闪烁，个别窗户在白色和黑色的有节奏的频闪中不规则地闪烁",
+    "在左边，约翰汉考克中心的钢制表皮吸收了渐渐褪色的光线，其变暗的表面失去了之前定义它的尖锐的几何反射",
+    "浓浓的、翻滚的黑烟和橙色的火焰从远处的地平线上升起，在下面熙熙攘攘的大街上投射出长长的、不祥的对角阴影，小小的汽车前灯在越来越浓的昏暗中挣扎。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

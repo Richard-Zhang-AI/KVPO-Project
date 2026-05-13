@@ -1,0 +1,14 @@
+{
+  "source_line_number": 50,
+  "raw_line": "{\"prompts\": [\"Gentle ripples expand outward from the bird's path, distorting the perfect mirror reflection of the fiery clouds and the silhouetted pine trees lining the far shore\"]}",
+  "segments": [
+    "Gentle ripples expand outward from the bird's path, distorting the perfect mirror reflection of the fiery clouds and the silhouetted pine trees lining the far shore"
+  ],
+  "segments_zh": [
+    "柔和的涟漪从鸟儿的路径向外扩展，扭曲了火热云彩和远岸松树剪影的完美镜面反射"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

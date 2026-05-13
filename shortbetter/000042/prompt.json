@@ -1,0 +1,14 @@
+{
+  "source_line_number": 42,
+  "raw_line": "{\"prompts\": [\"Thick plumes of white smoke and steam billow continuously from the engine's stack, swirling upward to obscure the old brick architecture of the station behind it while the crowd of travelers in wool coats and straw hats moves in the background\"]}",
+  "segments": [
+    "Thick plumes of white smoke and steam billow continuously from the engine's stack, swirling upward to obscure the old brick architecture of the station behind it while the crowd of travelers in wool coats and straw hats moves in the background"
+  ],
+  "segments_zh": [
+    "浓浓的白烟和蒸汽不断从发动机烟囱中喷涌而出，向上盘旋，遮蔽了车站后面古老的砖砌建筑，而背景中穿着羊毛大衣、戴着草帽的旅客在移动。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

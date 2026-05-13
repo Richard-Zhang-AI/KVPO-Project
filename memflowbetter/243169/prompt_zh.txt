@@ -1,0 +1,4 @@
+[seg1] golden afternoon sunlight filters through the leaves of ancient oak trees lining the cobblestone path, illuminating dust motes dancing in the air as a wide-angle lens slowly pans right across the bustling village fair entrance
+[seg2] 一个身穿花裙、头发系着红丝带的年轻女孩从画面左边缘走进画面，手里抓着一个形状像蓝色海星的氦气球，在微风中轻轻摇曳。
+[seg3] 她停下来向上看了一眼，镜头显示出背景中高耸的摩天轮，其色彩鲜艳的木屋在蔚蓝的天空下缓慢旋转，而身穿亚麻衬衫、戴着宽边帽的村民在游戏摊位附近笑着并打着手势。
+[seg4] 镜头继续平稳地向右移动，跟随女孩走上一个木制平台，一个穿着格子围裙的小贩把手伸进柳条篮里递给她一个甜筒，温暖的糕点中升起的蒸汽捕捉到了光线

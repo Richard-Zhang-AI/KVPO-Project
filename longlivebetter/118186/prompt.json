@@ -1,0 +1,20 @@
+{
+  "source_line_number": 118186,
+  "raw_line": "5,[Golden hour sunlight filters through the canopy of ancient banyan trees, casting dappled amber shadows across a narrow dirt path lined with vibrant wildflowers and scattered pebbles],[A young boy, approximately eight years old, wearing a faded indigo linen tunic with frayed hems and a woven straw hat tilted over his forehead, crouches low on the earth, his bare feet pressing into the soft soil],[He pauses mid-motion, his small hands still holding a smooth grey stone from a recent game, before slowly extending a single finger toward a monarch butterfly resting on a tall stalk of blue cornflower],[The butterfly's wings, patterned in vivid orange and black with white spots, tremble slightly as the boy's eyes widen in pure fascination, reflecting the warm glow of the setting sun],[As the camera executes a slow, deliberate tilt upward from the boy's crouched profile to his face, the background of thatched-roof huts and dense green foliage blurs gently into a soft bokeh, emphasizing the intimate connection between the child and the fragile creature]",
+  "segments": [
+    "Golden hour sunlight filters through the canopy of ancient banyan trees, casting dappled amber shadows across a narrow dirt path lined with vibrant wildflowers and scattered pebbles",
+    "A young boy, approximately eight years old, wearing a faded indigo linen tunic with frayed hems and a woven straw hat tilted over his forehead, crouches low on the earth, his bare feet pressing into the soft soil",
+    "He pauses mid-motion, his small hands still holding a smooth grey stone from a recent game, before slowly extending a single finger toward a monarch butterfly resting on a tall stalk of blue cornflower",
+    "The butterfly's wings, patterned in vivid orange and black with white spots, tremble slightly as the boy's eyes widen in pure fascination, reflecting the warm glow of the setting sun"
+  ],
+  "segments_zh": [
+    "黄金时段的阳光透过古老榕树的树冠，在狭窄的土路上投射出斑驳的琥珀色阴影，小路上两旁种满了生机勃勃的野花和散落的鹅卵石",
+    "一个八岁左右的小男孩，穿着一件褪色的靛蓝色亚麻外衣，下摆磨损了，头上戴着一顶编织草帽，低低地蹲在地上，赤脚踩在松软的土地上。",
+    "他在动作中停了下来，小手仍然握着最近一场比赛中的一块光滑的灰色石头，然后慢慢地将一根手指伸向停在蓝色矢车菊高茎上的帝王蝶。",
+    "蝴蝶的翅膀上有鲜艳的橙色和黑色图案，并带有白色斑点，男孩的眼睛因纯粹的迷惑而睁大，反射着夕阳的温暖光芒，蝴蝶的翅膀微微颤抖。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

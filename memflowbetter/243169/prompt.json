@@ -1,0 +1,20 @@
+{
+  "source_line_number": 243169,
+  "raw_line": "5,[golden afternoon sunlight filters through the leaves of ancient oak trees lining the cobblestone path, illuminating dust motes dancing in the air as a wide-angle lens slowly pans right across the bustling village fair entrance],[A young girl in a floral dress with a red ribbon tied in her hair walks into the frame from the left edge, clutching a helium balloon shaped like a blue starfish that bobs gently in the breeze],[She pauses to glance upward as the camera reveals the towering Ferris wheel in the background, its brightly colored wooden cabins rotating slowly against a clear azure sky while villagers in linen shirts and wide-brimmed hats laugh and gesture near the game booths],[The camera continues its smooth drift to the right, following the girl as she steps onto a wooden platform where a vendor in a checkered apron reaches into a wicker basket to hand her a sugar cone, the steam rising from the warm pastry catching the light],[The scene concludes with the camera holding a static wide shot as the girl takes a bite, her eyes widening in delight while the ambient sound of distant carnival music and children's laughter swells softly in the background]",
+  "segments": [
+    "golden afternoon sunlight filters through the leaves of ancient oak trees lining the cobblestone path, illuminating dust motes dancing in the air as a wide-angle lens slowly pans right across the bustling village fair entrance",
+    "A young girl in a floral dress with a red ribbon tied in her hair walks into the frame from the left edge, clutching a helium balloon shaped like a blue starfish that bobs gently in the breeze",
+    "She pauses to glance upward as the camera reveals the towering Ferris wheel in the background, its brightly colored wooden cabins rotating slowly against a clear azure sky while villagers in linen shirts and wide-brimmed hats laugh and gesture near the game booths",
+    "The camera continues its smooth drift to the right, following the girl as she steps onto a wooden platform where a vendor in a checkered apron reaches into a wicker basket to hand her a sugar cone, the steam rising from the warm pastry catching the light"
+  ],
+  "segments_zh": [
+    "golden afternoon sunlight filters through the leaves of ancient oak trees lining the cobblestone path, illuminating dust motes dancing in the air as a wide-angle lens slowly pans right across the bustling village fair entrance",
+    "一个身穿花裙、头发系着红丝带的年轻女孩从画面左边缘走进画面，手里抓着一个形状像蓝色海星的氦气球，在微风中轻轻摇曳。",
+    "她停下来向上看了一眼，镜头显示出背景中高耸的摩天轮，其色彩鲜艳的木屋在蔚蓝的天空下缓慢旋转，而身穿亚麻衬衫、戴着宽边帽的村民在游戏摊位附近笑着并打着手势。",
+    "镜头继续平稳地向右移动，跟随女孩走上一个木制平台，一个穿着格子围裙的小贩把手伸进柳条篮里递给她一个甜筒，温暖的糕点中升起的蒸汽捕捉到了光线"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

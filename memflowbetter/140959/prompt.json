@@ -1,0 +1,20 @@
+{
+  "source_line_number": 140959,
+  "raw_line": "5,[a wide shot captures a steel roller coaster car suspended high above the ground against a cloudless azure sky, the sun casting sharp, high-contrast shadows across the polished metal rails and the riders' faces, the camera slowly pushes forward as the track begins a violent, hairpin turn to the left],[the riders, wearing faded denim jackets and safety harnesses that dig into their shoulders, grip the safety bars with white-knuckled intensity, their eyes squeezed shut as the car plummets toward a steep, twisting drop, the wind whipping strands of hair across their foreheads],[a young woman in the front row, her red scarf fluttering wildly in the gusts, lets out a sharp scream of pure exhilaration, her mouth wide open and teeth bared, while the boy beside her, wearing a bright yellow t-shirt, laughs hysterically with tears streaming down his cheeks],[in the blurred background below, the colorful striped canopies of carnival tents and the dense crowd of spectators cheering from the grassy hillside create a vibrant, bokeh-filled backdrop that emphasizes the height and speed of the descent],[the camera continues its slow dolly-in, tightening the frame onto the terrified yet thrilled expressions of the riders as the coaster car tilts sharply downward into the abyss, slow dolly-in]",
+  "segments": [
+    "a wide shot captures a steel roller coaster car suspended high above the ground against a cloudless azure sky, the sun casting sharp, high-contrast shadows across the polished metal rails and the riders' faces, the camera slowly pushes forward as the track begins a violent, hairpin turn to the left",
+    "the riders, wearing faded denim jackets and safety harnesses that dig into their shoulders, grip the safety bars with white-knuckled intensity, their eyes squeezed shut as the car plummets toward a steep, twisting drop, the wind whipping strands of hair across their foreheads",
+    "a young woman in the front row, her red scarf fluttering wildly in the gusts, lets out a sharp scream of pure exhilaration, her mouth wide open and teeth bared, while the boy beside her, wearing a bright yellow t-shirt, laughs hysterically with tears streaming down his cheeks",
+    "in the blurred background below, the colorful striped canopies of carnival tents and the dense crowd of spectators cheering from the grassy hillside create a vibrant, bokeh-filled backdrop that emphasizes the height and speed of the descent"
+  ],
+  "segments_zh": [
+    "广角镜头捕捉到了一辆高高悬挂在地面上的钢质过山车，映衬着万里无云的蔚蓝天空，阳光在抛光的金属轨道和乘客的脸上投射出锐利、高对比度的阴影，镜头慢慢向前推进，轨道开始猛烈地向左急转弯",
+    "骑手们穿着褪色的牛仔夹克，安全带深深地扎在肩膀上，他们紧张地握着安全杆，当汽车急速坠向陡峭、扭曲的悬崖时，他们紧闭双眼，风吹过他们额头上的一缕缕头发。",
+    "前排的一位年轻女子，红领巾在狂风中狂舞，张大嘴巴，露出牙齿，发出纯粹兴奋的尖锐尖叫，而她旁边穿着明黄色T恤的男孩歇斯底里地笑，泪水从脸颊流下来。",
+    "在下面模糊的背景中，嘉年华帐篷的彩色条纹檐篷和在长满青草的山坡上欢呼的密集观众群创造了一个充满活力、充满散景的背景，强调了下降的高度和速度"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

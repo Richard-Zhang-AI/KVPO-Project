@@ -1,0 +1,4 @@
+[seg1] A sleek black sedan glides smoothly along the wet asphalt of a Tokyo street at night.
+[seg2] The car slows to a halt near a crowded sidewalk where a young woman with long, flowing black hair steps out from the driver's side door.
+[seg3] She pauses briefly to peer curiously at a street vendor's illuminated stall.
+[seg4] Towering skyscrapers and the iconic Shibuya Crossing loom in the background, bathed in a kaleidoscope of neon pinks, electric blues, and deep purples that cast long, dancing reflections on the rain-slicked pavement.

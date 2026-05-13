@@ -1,0 +1,20 @@
+{
+  "source_line_number": 8476,
+  "raw_line": "4,[A macro lens focuses tightly on a vibrant peony with soft petals in shades of deep rose and crimson, the texture of the velvety surface catching the dappled morning light, as the camera begins a slow tilt-down to reveal the flower's structure],[The last few outer petals unfurl slowly, revealing the intricate golden stamens at the center, while a gentle breeze causes the entire bloom to sway slightly, casting subtle shadows within the layered folds],[In the background, a serene garden with other blurred flowers and lush green foliage remains tranquil, providing a soft bokeh of emerald and chartreuse tones that contrasts with the sharp focus on the subject],[The camera continues its smooth downward tilt, transitioning from the full bloom to a view of the flower's sturdy green stem and the rich, dark soil beneath, where a small, dew-covered leaf enters the frame from the bottom edge as the shot settles]",
+  "segments": [
+    "A macro lens focuses tightly on a vibrant peony with soft petals in shades of deep rose and crimson, the texture of the velvety surface catching the dappled morning light, as the camera begins a slow tilt-down to reveal the flower's structure",
+    "The last few outer petals unfurl slowly, revealing the intricate golden stamens at the center, while a gentle breeze causes the entire bloom to sway slightly, casting subtle shadows within the layered folds",
+    "In the background, a serene garden with other blurred flowers and lush green foliage remains tranquil, providing a soft bokeh of emerald and chartreuse tones that contrasts with the sharp focus on the subject",
+    "The camera continues its smooth downward tilt, transitioning from the full bloom to a view of the flower's sturdy green stem and the rich, dark soil beneath, where a small, dew-covered leaf enters the frame from the bottom edge as the shot settles"
+  ],
+  "segments_zh": [
+    "微距镜头紧紧聚焦在充满活力的牡丹上，牡丹的花瓣呈深玫瑰色和深红色，天鹅绒般的表面纹理捕捉着斑驳的晨光，相机开始缓慢向下倾斜以揭示花朵的结构",
+    "最后几片外瓣缓缓展开，露出中央错综复杂的金色花蕊，微风吹过，整个花朵轻轻摇曳，在层层叠叠的褶皱中投下微妙的阴影。",
+    "在背景中，宁静的花园里有其他模糊的花朵和郁郁葱葱的绿叶，保持着宁静，提供了祖母绿和黄绿色色调的柔和散景，与主题的锐利焦点形成鲜明对比",
+    "相机继续平稳地向下倾斜，从盛开的花朵过渡到花朵坚固的绿色茎和下面肥沃的深色土壤的视图，当镜头稳定下来时，一片沾满露水的小叶子从底部边缘进入画面"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

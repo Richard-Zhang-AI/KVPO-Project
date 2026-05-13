@@ -1,0 +1,20 @@
+{
+  "source_line_number": 129808,
+  "raw_line": "5,[The vast expanse of the ocean fills the frame with deep indigo waves rolling rhythmically toward the shore, their crests catching the last amber rays of a setting sun that has just dipped below the horizon line],[A small wooden sailboat drifts into the center of the shot from the left edge, its weathered hull reflecting the fading warmth while the captain, a figure in a worn navy coat, stands at the stern and begins to pull the canvas sail taut against the gathering evening breeze],[As the fabric snaps tight with a soft rustling sound, the water's surface transforms into a shimmering ribbon of gold and violet, mirroring the sky where the first few stars begin to twinkle faintly above the darkening clouds],[The camera executes a slow, steady dolly-in, gradually bringing the boat and the captain's focused expression into sharper relief as the boat's long shadow stretches across the rippling water, merging seamlessly with the deepening blues of the twilight],[The shot concludes with a subtle handheld drift that follows the boat's gentle bobbing motion, maintaining the serene atmosphere as the light continues to fade into the night]",
+  "segments": [
+    "The vast expanse of the ocean fills the frame with deep indigo waves rolling rhythmically toward the shore, their crests catching the last amber rays of a setting sun that has just dipped below the horizon line",
+    "A small wooden sailboat drifts into the center of the shot from the left edge, its weathered hull reflecting the fading warmth while the captain, a figure in a worn navy coat, stands at the stern and begins to pull the canvas sail taut against the gathering evening breeze",
+    "As the fabric snaps tight with a soft rustling sound, the water's surface transforms into a shimmering ribbon of gold and violet, mirroring the sky where the first few stars begin to twinkle faintly above the darkening clouds",
+    "The camera executes a slow, steady dolly-in, gradually bringing the boat and the captain's focused expression into sharper relief as the boat's long shadow stretches across the rippling water, merging seamlessly with the deepening blues of the twilight"
+  ],
+  "segments_zh": [
+    "广阔的海洋填满了画面，深蓝色的波浪有节奏地向海岸滚动，波峰捕捉着刚刚落入地平线的落日最后的琥珀色光芒",
+    "一艘小木帆船从左边缘漂入镜头中央，饱经风霜的船体反射着逐渐褪去的温暖，而身着破旧海军大衣的船长站在船尾，开始拉紧帆布帆，抵御渐浓的晚风。",
+    "当布料拉紧并发出轻柔的沙沙声时，水面变成了一条闪闪发光的金色和紫色丝带，镜像着天空，天空中最初的几颗星星开始在渐暗的云层上方微弱地闪烁。",
+    "摄影机缓慢而稳定地推入，逐渐将船和船长专注的表情变得更加清晰，船的长长的影子在碧波荡漾的水面上延伸，与暮色中加深的蓝色无缝融合。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

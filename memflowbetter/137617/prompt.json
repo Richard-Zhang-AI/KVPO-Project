@@ -1,0 +1,20 @@
+{
+  "source_line_number": 137617,
+  "raw_line": "5,[The camera holds a static wide shot capturing the amber glow of a setting sun piercing through scattered cumulus clouds, sending thick beams of golden light down toward the earth],[A dense canopy of lush emerald leaves fills the upper frame, their textured surfaces catching the warm hues while casting intricate, shifting patterns of dappled light and deep shadow onto the forest floor below],[A gentle breeze sweeps through the scene, causing the broad leaves to rustle softly and sway, which subtly alters the geometry of the light patches on the ground without disrupting the overall tranquility],[The air feels still and heavy with the scent of pine, illuminated by soft, diffused radiance that eliminates harsh contrasts and bathes the entire landscape in a serene, monochromatic warmth],[The shot remains completely static, allowing the natural movement of the foliage to drive the visual rhythm of the frame]",
+  "segments": [
+    "The camera holds a static wide shot capturing the amber glow of a setting sun piercing through scattered cumulus clouds, sending thick beams of golden light down toward the earth",
+    "A dense canopy of lush emerald leaves fills the upper frame, their textured surfaces catching the warm hues while casting intricate, shifting patterns of dappled light and deep shadow onto the forest floor below",
+    "A gentle breeze sweeps through the scene, causing the broad leaves to rustle softly and sway, which subtly alters the geometry of the light patches on the ground without disrupting the overall tranquility",
+    "The air feels still and heavy with the scent of pine, illuminated by soft, diffused radiance that eliminates harsh contrasts and bathes the entire landscape in a serene, monochromatic warmth"
+  ],
+  "segments_zh": [
+    "相机采用静态广角镜头捕捉夕阳的琥珀色光芒，穿过分散的积云，将厚厚的金色光束射向地球",
+    "上框充满了茂密的翠绿树叶，它们的纹理表面捕捉到温暖的色调，同时在下面的森林地面上投射出复杂的、变化的斑驳光和深影图案。",
+    "微风徐徐吹过，宽大的树叶轻轻地沙沙作响、摇摆不定，巧妙地改变了地面光斑的几何形状，却又不破坏整体的宁静。",
+    "空气中弥漫着松树的清香，空气中弥漫着静谧而厚重的气息，柔和的漫射光芒照亮了这里，消除了刺眼的对比，让整个景观沐浴在宁静、单色的温暖之中。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

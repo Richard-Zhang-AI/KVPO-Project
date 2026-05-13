@@ -1,0 +1,4 @@
+[seg1] The camera drifts low over the lunar regolith as the last sliver of the sun vanishes below the crater rim, casting elongated, violet-tinted shadows that stretch across the grey, pockmarked terrain
+[seg2] A small, metallic rover with scratched aluminum panels and exposed hydraulic joints enters the frame from the left edge, its wheels slowly rotating to churn the fine, powdery dust into a swirling mist of particles
+[seg3] As the vehicle advances, the gradient sky shifts from deep orange to bruised purple, illuminating the rough texture of scattered boulders and the subtle ridges of the crater walls with a surreal, dimming amber glow
+[seg4] The rover's headlight flickers on, cutting a narrow cone of harsh white light through the gathering twilight, revealing the intricate details of its suspension system and the faint tracks it leaves behind in the undisturbed surface

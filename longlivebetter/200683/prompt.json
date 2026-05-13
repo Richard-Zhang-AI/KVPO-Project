@@ -1,0 +1,20 @@
+{
+  "source_line_number": 200683,
+  "raw_line": "6,[A vast, churning expanse of dark grey ocean under a storm-wracked sky, lightning flashes intermittently to reveal the frothy white crests of massive waves, a group of four stormtroopers clad in glossy white Phase II armor wades waist-deep into the turbulent surf, their movement synchronized as they push against the relentless current],[The camera begins with a static medium-wide shot capturing the full scale of the storm before slowly tilting downward to emphasize the depth of the water and the sheer power of the crashing waves surrounding them],[One trooper in the center foreground reaches up with a gloved hand to adjust the seal of their helmet, water cascading off the curved white visor and dripping onto the chest plate, the sound of heavy breathing mixing with the roar of the sea],[The armor plates clink softly against one another as they struggle to maintain their rhythm, the high-contrast lighting from the distant lightning illuminating the sweat and grime accumulating in the crevices of their suits],[As the central figure steadies their grip on the helmet, the camera executes a slow, deliberate dolly-in, moving closer to the troopers' faces to highlight the determination etched in their expressions despite the visible fatigue],[The scene concludes with the camera holding a tight medium shot on the group, the storm intensifying around them as the waves continue to crash violently against their armor, slow dolly-in]",
+  "segments": [
+    "A vast, churning expanse of dark grey ocean under a storm-wracked sky, lightning flashes intermittently to reveal the frothy white crests of massive waves, a group of four stormtroopers clad in glossy white Phase II armor wades waist-deep into the turbulent surf, their movement synchronized as they push against the relentless current",
+    "The camera begins with a static medium-wide shot capturing the full scale of the storm before slowly tilting downward to emphasize the depth of the water and the sheer power of the crashing waves surrounding them",
+    "One trooper in the center foreground reaches up with a gloved hand to adjust the seal of their helmet, water cascading off the curved white visor and dripping onto the chest plate, the sound of heavy breathing mixing with the roar of the sea",
+    "The armor plates clink softly against one another as they struggle to maintain their rhythm, the high-contrast lighting from the distant lightning illuminating the sweat and grime accumulating in the crevices of their suits"
+  ],
+  "segments_zh": [
+    "暴风雨肆虐的天空下，一片浩瀚翻腾的深灰色海洋，闪电间歇性地闪现，露出白色泡沫般的巨浪波峰，四名冲锋队员身穿光亮的白色二期装甲，涉入齐腰深的汹涌海浪中，他们的动作同步，逆流而上。",
+    "摄像机首先用静态中广角镜头捕捉风暴的全貌，然后慢慢向下倾斜，以强调水的深度和周围海浪的巨大力量。",
+    "前景中央的一名士兵用戴着手套的手抬起头来调整头盔的密封性，水从弯曲的白色面罩上倾泻而下，滴到胸甲上，粗重的呼吸声与大海的咆哮声混合在一起",
+    "当他们努力保持节奏时，装甲板彼此轻轻碰撞，远处闪电的高对比度灯光照亮了他们装甲缝隙中积聚的汗水和污垢"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

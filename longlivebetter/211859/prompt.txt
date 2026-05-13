@@ -1,0 +1,4 @@
+[seg1] High-altitude drone shot sweeps horizontally across a sprawling metropolis blanketed in heavy fog, where jagged silhouettes of skyscrapers pierce a starless, charcoal sky, their glass facades reflecting faint, dying amber streetlights
+[seg2] The camera glides smoothly over empty avenues devoid of traffic, capturing the rhythmic pulse of distant sirens and the low hum of wind rushing through canyon-like gaps between buildings
+[seg3] As the aerial sweep continues, the perspective slowly tilts downward to reveal a solitary figure standing at the precipice of a dark concrete rooftop, their silhouette sharp against the oppressive gloom
+[seg4] The lone individual, clad in a textured charcoal trench coat that billows slightly in the night breeze, leans forward with hands gripping the rough parapet, their breath visible as a faint wisp of white vapor in the freezing air

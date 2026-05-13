@@ -1,0 +1,20 @@
+{
+  "source_line_number": 114972,
+  "raw_line": "6,[The camera drifts slowly upward from a close-up of a child's gloved hand catching a single, luminous snowflake against the backdrop of a vast, moonlit night sky, where gentle flakes descend like glittering dust illuminated by the soft silver glow above],[As the view expands to reveal the mid-ground, a group of children in thick, textured wool coats and scarves sleds down a gentle, snow-packed slope, their laughter echoing as they tumble toward the bottom of the frame while one small figure pauses to reach up and grasp a drifting crystal],[The camera continues its smooth upward tilt to showcase the village square, where a towering, majestic Christmas tree adorned with thousands of warm amber and ruby lights stands as the focal point, casting long, dancing reflections on the packed snow below],[Surrounding the tree, villagers in heavy fur-trimmed coats exchange wrapped gifts and share tight embraces, their breath visible in the crisp air as the ambient sound of jingling bells and distant carols fills the space],[In the deep background, a row of ancient evergreen trees stretches toward the dark horizon, their branches heavy with ornaments that catch the moonlight, creating a seamless transition from the intimate foreground action to the expansive, magical village setting],[The entire sequence maintains a continuous, fluid motion that feels like a single, unbroken observation of a winter wonderland]",
+  "segments": [
+    "The camera drifts slowly upward from a close-up of a child's gloved hand catching a single, luminous snowflake against the backdrop of a vast, moonlit night sky, where gentle flakes descend like glittering dust illuminated by the soft silver glow above",
+    "As the view expands to reveal the mid-ground, a group of children in thick, textured wool coats and scarves sleds down a gentle, snow-packed slope, their laughter echoing as they tumble toward the bottom of the frame while one small figure pauses to reach up and grasp a drifting crystal",
+    "The camera continues its smooth upward tilt to showcase the village square, where a towering, majestic Christmas tree adorned with thousands of warm amber and ruby lights stands as the focal point, casting long, dancing reflections on the packed snow below",
+    "Surrounding the tree, villagers in heavy fur-trimmed coats exchange wrapped gifts and share tight embraces, their breath visible in the crisp air as the ambient sound of jingling bells and distant carols fills the space"
+  ],
+  "segments_zh": [
+    "镜头从一个孩子戴着手套的手的特写镜头慢慢向上移动，在广阔的月光夜空的背景下捕捉到一片发光的雪花，温柔的雪花像闪闪发光的灰尘一样飘落，被上面柔和的银色光芒照亮。",
+    "当视野扩大到中景时，一群穿着厚厚的、有纹理的羊毛大衣和围巾的孩子们沿着一个平缓的、积雪的斜坡滑下，当他们跌向画面底部时，他们的笑声回响着，同时一个小人物停下来伸手抓住一块漂浮的水晶。",
+    "镜头继续平稳向上倾斜，展示村庄广场，那里一棵高耸雄伟的圣诞树，装饰着数千盏温暖的琥珀色和红宝石色的灯光，成为焦点，在下面积满的雪上投射出长长的、舞动的倒影。",
+    "树周围，身着厚重毛皮大衣的村民交换包装好的礼物，紧紧拥抱，他们的呼吸在清新的空气中清晰可见，叮当的钟声和远处的颂歌充满了整个空间。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

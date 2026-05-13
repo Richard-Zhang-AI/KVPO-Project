@@ -1,0 +1,4 @@
+[seg1] grainy 16mm film stock from 1983 captures a sprawling concrete metropolis engulfed in chaos as a colossal mushroom cloud rises in the far distance, its white and grey plume distorting the sky above
+[seg2] towering skyscrapers crumble into dust and twisted rebar while thick black smoke billows upward, mixing with falling debris that rains down onto the asphalt streets below
+[seg3] panicked civilians in frayed coats and torn trousers sprint in every direction, their faces twisted in terror, while emergency vehicles with flashing red and blue lights weave frantically through the gridlock
+[seg4] a military transport helicopter enters the frame from the upper left, its rotors creating a violent downdraft that kicks up swirling clouds of particulate matter

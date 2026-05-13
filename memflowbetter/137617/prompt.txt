@@ -1,0 +1,4 @@
+[seg1] The camera holds a static wide shot capturing the amber glow of a setting sun piercing through scattered cumulus clouds, sending thick beams of golden light down toward the earth
+[seg2] A dense canopy of lush emerald leaves fills the upper frame, their textured surfaces catching the warm hues while casting intricate, shifting patterns of dappled light and deep shadow onto the forest floor below
+[seg3] A gentle breeze sweeps through the scene, causing the broad leaves to rustle softly and sway, which subtly alters the geometry of the light patches on the ground without disrupting the overall tranquility
+[seg4] The air feels still and heavy with the scent of pine, illuminated by soft, diffused radiance that eliminates harsh contrasts and bathes the entire landscape in a serene, monochromatic warmth

@@ -1,0 +1,14 @@
+{
+  "source_line_number": 8,
+  "raw_line": "{\"prompts\": [\"A narrow black diagonal band cuts sharply from the upper hoist corner to the lower fly corner, bisected by a crisp white stripe that gleams brightly as it flutters in the wind\"]}",
+  "segments": [
+    "A narrow black diagonal band cuts sharply from the upper hoist corner to the lower fly corner, bisected by a crisp white stripe that gleams brightly as it flutters in the wind"
+  ],
+  "segments_zh": [
+    "一条狭窄的黑色对角带从上吊角到下门角急剧切割，被一条清晰的白色条纹一分为二，当它在风中飘扬时，它闪闪发光"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

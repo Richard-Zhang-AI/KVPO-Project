@@ -1,0 +1,20 @@
+{
+  "source_line_number": 45553,
+  "raw_line": "6,[A low-angle wide shot captures the skeletal remains of a once-massive skyscraper, its glass facade shattered and dark against a twilight sky, as the camera slowly dollies forward along a debris-strewn street],[The cobblestones are littered with the rusted husks of abandoned electric vehicles and scattered circuit boards, their metallic surfaces reflecting the faint, amber glow of the dying sun],[Soft wind whistles through the broken windows, carrying the distant, muffled sound of rustling leaves that are beginning to sprout from the cracks in the pavement],[A small, dark-feathered bird hops silently into the frame from the left edge, landing delicately on a cracked concrete slab],[The camera tilts down slightly to follow the bird as it pecks curiously at a discarded smartphone screen lying face-up, its cracked display flickering with a single dying pixel],[As the bird pauses, the camera executes a slow pan to the right, revealing more patches of vibrant green moss and young saplings pushing through the asphalt, signaling nature's slow reclamation of the silent, futuristic city]",
+  "segments": [
+    "A low-angle wide shot captures the skeletal remains of a once-massive skyscraper, its glass facade shattered and dark against a twilight sky, as the camera slowly dollies forward along a debris-strewn street",
+    "The cobblestones are littered with the rusted husks of abandoned electric vehicles and scattered circuit boards, their metallic surfaces reflecting the faint, amber glow of the dying sun",
+    "Soft wind whistles through the broken windows, carrying the distant, muffled sound of rustling leaves that are beginning to sprout from the cracks in the pavement",
+    "A small, dark-feathered bird hops silently into the frame from the left edge, landing delicately on a cracked concrete slab"
+  ],
+  "segments_zh": [
+    "低角度广角镜头捕捉到了一座曾经巨大的摩天大楼的骨架残骸，其玻璃幕墙破碎，在暮色天空的映衬下一片漆黑，摄影机沿着一条布满碎片的街道缓慢前行。",
+    "鹅卵石上散落着废弃电动汽车生锈的外壳和散落的电路板，它们的金属表面反射着垂死太阳的微弱琥珀色光芒",
+    "柔和的风从破碎的窗户吹过，远处传来低沉的沙沙声，树叶开始从人行道的裂缝中发芽。",
+    "A small, dark-feathered bird hops silently into the frame from the left edge, landing delicately on a cracked concrete slab"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_line_number": 230459,
+  "raw_line": "6,[A wide establishing shot reveals the grand entrance of an upscale fast-casual dining hall where floor-to-ceiling glass panels frame a city skyline at dusk, warm amber pendant lights hang in a geometric grid above polished walnut floors, and the air hums with the low-frequency thrum of a grand piano and the soft clink of crystal glassware],[A waiter dressed in a tailored charcoal tuxedo with a silk cravat steps from the shadows of the bar area toward the center of the room, his polished oxfords clicking rhythmically on the hardwood as he carries a silver platter holding a gourmet burger encased in a brioche bun topped with truffle aioli and caramelized onions],[He places the dish gently onto a seamless slab of white Carrara marble that reflects the overhead chandelier, causing the rich colors of the food to pop against the cool stone surface while the camera executes a slow dolly-in to emphasize the texture of the lettuce and the glistening sauce],[The camera tilts upward to reveal diners seated in deep velvet armchairs upholstered in emerald green and navy blue, their faces illuminated by the gentle glow of table lamps as they sip amber-hued artisan cocktails through slender glass straws, the liquid swirling slowly inside the tumblers],[In the background, a chef in a pristine white uniform moves with precision behind a glass-enclosed kitchen station, tossing ingredients in a pan that sizzles audibly, while the ambient jazz music swells slightly to underscore the sophisticated atmosphere],[The shot concludes with a slow pan to the right, following the waiter's hand as he adjusts a napkin ring on the table before turning back toward the kitchen entrance]",
+  "segments": [
+    "A wide establishing shot reveals the grand entrance of an upscale fast-casual dining hall where floor-to-ceiling glass panels frame a city skyline at dusk, warm amber pendant lights hang in a geometric grid above polished walnut floors, and the air hums with the low-frequency thrum of a grand piano and the soft clink of crystal glassware",
+    "A waiter dressed in a tailored charcoal tuxedo with a silk cravat steps from the shadows of the bar area toward the center of the room, his polished oxfords clicking rhythmically on the hardwood as he carries a silver platter holding a gourmet burger encased in a brioche bun topped with truffle aioli and caramelized onions",
+    "He places the dish gently onto a seamless slab of white Carrara marble that reflects the overhead chandelier, causing the rich colors of the food to pop against the cool stone surface while the camera executes a slow dolly-in to emphasize the texture of the lettuce and the glistening sauce",
+    "The camera tilts upward to reveal diners seated in deep velvet armchairs upholstered in emerald green and navy blue, their faces illuminated by the gentle glow of table lamps as they sip amber-hued artisan cocktails through slender glass straws, the liquid swirling slowly inside the tumblers"
+  ],
+  "segments_zh": [
+    "远景镜头展示了一家高档休闲快餐餐厅的宏伟入口，落地玻璃板勾勒出黄昏时分的城市天际线，温暖的琥珀色吊灯以几何网格形式悬挂在抛光胡桃木地板上，空气中弥漫着三角钢琴的低频嗡嗡声和水晶玻璃器皿的轻柔叮当声。",
+    "一位服务员穿着定制的木炭燕尾服，系着丝绸领带，从酒吧区的阴影走向房间中央，他的抛光牛津鞋在硬木上有节奏地发出咔嗒声，他端着一个银盘，里面盛着一个美味的汉堡，汉堡包在奶油蛋卷面包里，上面放着松露蒜泥蛋黄酱和焦糖洋葱。",
+    "他轻轻地将盘子放在一块无缝的白色卡拉拉大理石板上，反射着头顶的枝形吊灯，使食物的丰富色彩在凉爽的石头表面上凸显出来，同时相机执行缓慢的推入以强调生菜的质地和闪闪发光的酱汁",
+    "镜头向上倾斜，食客们坐在深天鹅绒扶手椅上，扶手椅上铺着翠绿色和海军蓝色的软垫，他们的脸被台灯的柔和光芒照亮，他们通过细长的玻璃吸管啜饮着琥珀色的手工鸡尾酒，液体在玻璃杯内缓慢旋转。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

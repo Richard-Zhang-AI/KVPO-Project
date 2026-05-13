@@ -1,0 +1,20 @@
+{
+  "source_line_number": 211859,
+  "raw_line": "6,[High-altitude drone shot sweeps horizontally across a sprawling metropolis blanketed in heavy fog, where jagged silhouettes of skyscrapers pierce a starless, charcoal sky, their glass facades reflecting faint, dying amber streetlights],[The camera glides smoothly over empty avenues devoid of traffic, capturing the rhythmic pulse of distant sirens and the low hum of wind rushing through canyon-like gaps between buildings],[As the aerial sweep continues, the perspective slowly tilts downward to reveal a solitary figure standing at the precipice of a dark concrete rooftop, their silhouette sharp against the oppressive gloom],[The lone individual, clad in a textured charcoal trench coat that billows slightly in the night breeze, leans forward with hands gripping the rough parapet, their breath visible as a faint wisp of white vapor in the freezing air],[The scene is bathed in a monochromatic palette of deep indigo and slate grey, with cool blue moonlight casting long, diagonal shadows across the wet pavement below and highlighting the intricate weave of the coat's fabric],[The camera executes a deliberate, slow dolly-in while maintaining the downward tilt, narrowing the frame to isolate the figure's hunched posture and the vast, empty abyss stretching out beneath them]",
+  "segments": [
+    "High-altitude drone shot sweeps horizontally across a sprawling metropolis blanketed in heavy fog, where jagged silhouettes of skyscrapers pierce a starless, charcoal sky, their glass facades reflecting faint, dying amber streetlights",
+    "The camera glides smoothly over empty avenues devoid of traffic, capturing the rhythmic pulse of distant sirens and the low hum of wind rushing through canyon-like gaps between buildings",
+    "As the aerial sweep continues, the perspective slowly tilts downward to reveal a solitary figure standing at the precipice of a dark concrete rooftop, their silhouette sharp against the oppressive gloom",
+    "The lone individual, clad in a textured charcoal trench coat that billows slightly in the night breeze, leans forward with hands gripping the rough parapet, their breath visible as a faint wisp of white vapor in the freezing air"
+  ],
+  "segments_zh": [
+    "高空无人机拍摄的画面水平扫过一座笼罩在浓雾中的庞大大都市，摩天大楼参差不齐的轮廓刺破了无星的炭色天空，玻璃幕墙反射着微弱的琥珀色路灯",
+    "摄像机平稳地滑过没有交通的空荡荡的大道，捕捉到远处警报器有节奏的脉动以及风吹过建筑物之间峡谷般的缝隙时发出的低沉嗡嗡声。",
+    "随着空中扫描的继续，视角慢慢向下倾斜，露出一个孤独的身影，站在黑暗的混凝土屋顶的悬崖上，他们的轮廓在压抑的阴暗中显得鲜明",
+    "孤独的人穿着一件有纹理的木炭风衣，在夜风中微微飘动，身体前倾，双手抓住粗糙的护栏，他们的呼吸在冰冷的空气中清晰可见，如一缕淡淡的白色蒸汽。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

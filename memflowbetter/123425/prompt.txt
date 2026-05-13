@@ -1,0 +1,4 @@
+[seg1] A close-up static shot focuses on a hand with manicured nails gripping the edge of a sleek smartphone, the device's cool glass surface reflecting the faint ambient light of the room
+[seg2] The thumb swipes rhythmically across the screen, navigating through a feed of generic images before halting abruptly on a vibrant post showcasing a friend's lavish birthday party
+[seg3] The screen illuminates the user's face, revealing eyes that widen slightly as they read glowing comments of admiration, while the background remains a soft, out-of-focus blur of warm interior tones
+[seg4] The camera slowly dollies in toward the screen, emphasizing the sharp, high-contrast details of the opulent decorations and guests in finery against the dimly lit, textured fabric of the user's dark sweater sleeve

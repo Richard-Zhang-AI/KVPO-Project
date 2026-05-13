@@ -1,0 +1,4 @@
+[seg1] A high-altitude crane shot captures the sprawling grid of Chicago at twilight.
+[seg2] The Willis Tower stands silhouetted against the smoke.
+[seg3] The John Hancock Center's steel skin absorbs the fading light.
+[seg4] Thick, churning columns of black smoke and orange flame rise from the distant skyline.

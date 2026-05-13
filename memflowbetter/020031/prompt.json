@@ -1,0 +1,20 @@
+{
+  "source_line_number": 20031,
+  "raw_line": "5,[As the deep violet twilight bleeds into the horizon, casting long diagonal shadows across the dew-kissed meadow, a faint metallic hum vibrates through the air],[From the upper right quadrant of the frame, a sleek, disc-shaped UFO begins its descent, its underside revealing a grid of pulsating amber lights that grow brighter with every meter it drops],[The craft's smooth, silver alloy surface reflects the fading orange sun, creating a shimmering ripple effect on the lush green grass below as the vehicle hovers just above the canopy of scattered oak trees],[A soft, ethereal glow emanates from the UFO, illuminating the mist clinging to the treetops and turning the surrounding foliage into a tapestry of gold and shadow],[The camera executes a slow, steady dolly-in toward the hovering craft, maintaining a low angle that emphasizes the scale of the machine against the vast, colorful sky]",
+  "segments": [
+    "As the deep violet twilight bleeds into the horizon, casting long diagonal shadows across the dew-kissed meadow, a faint metallic hum vibrates through the air",
+    "From the upper right quadrant of the frame, a sleek, disc-shaped UFO begins its descent, its underside revealing a grid of pulsating amber lights that grow brighter with every meter it drops",
+    "The craft's smooth, silver alloy surface reflects the fading orange sun, creating a shimmering ripple effect on the lush green grass below as the vehicle hovers just above the canopy of scattered oak trees",
+    "A soft, ethereal glow emanates from the UFO, illuminating the mist clinging to the treetops and turning the surrounding foliage into a tapestry of gold and shadow"
+  ],
+  "segments_zh": [
+    "当深紫罗兰色的暮色渗入地平线，在沾满露珠的草地上投下长长的斜线阴影时，空气中传来微弱的金属嗡嗡声",
+    "从画面的右上象限，一个圆滑的圆盘形不明飞行物开始下降，其底部露出一排脉动的琥珀色灯光，每下降一米，灯光就会变得更加明亮",
+    "飞行器光滑的银色合金表面反射着逐渐褪色的橙色阳光，当飞行器悬停在分散的橡树树冠上方时，在下面郁郁葱葱的绿草上产生闪闪发光的波纹效果",
+    "不明飞行物发出柔和、空灵的光芒，照亮了树梢上的薄雾，将周围的树叶变成了金色和阴影的挂毯"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source_line_number": 210072,
+  "raw_line": "5,[The camera begins with a static wide shot capturing the vast expanse of jagged mountain peaks stretching toward the vanishing point under a sky ablaze with gradients of burnt orange, deep magenta, and bruised purple, while the lens slowly begins a gentle upward tilt to follow the silhouette of a hawk that dives into the frame from the upper left corner, its wings catching the dying amber light as it cuts a silent path across the rugged, shadowed terrain],[The low-angle sunlight casts long, diagonal beams through the sparse alpine pines in the mid-ground, illuminating the rough texture of the bark and the scattered patches of snow on the rocky slopes, creating a stark contrast between the warm atmospheric haze and the cool blue tones of the deepening valleys below],[As the bird completes its arc and ascends toward the right edge of the frame, the camera executes a smooth dolly-back movement to reveal more of the sprawling landscape, emphasizing the sheer scale of the peaks and the intricate network of ridges fading into the twilight mist],[The ambient air shimmers with heat distortion near the ground, and the sound of a distant wind howling through the crags mixes with the soft, rhythmic flapping of the hawk's wings, grounding the serene visual stillness in a palpable sense of natural grandeur],[The final shot holds as a static wide frame, allowing the viewer to absorb the tranquil beauty of the dusk settling over the silent, majestic wilderness]",
+  "segments": [
+    "The camera begins with a static wide shot capturing the vast expanse of jagged mountain peaks stretching toward the vanishing point under a sky ablaze with gradients of burnt orange, deep magenta, and bruised purple, while the lens slowly begins a gentle upward tilt to follow the silhouette of a hawk that dives into the frame from the upper left corner, its wings catching the dying amber light as it cuts a silent path across the rugged, shadowed terrain",
+    "The low-angle sunlight casts long, diagonal beams through the sparse alpine pines in the mid-ground, illuminating the rough texture of the bark and the scattered patches of snow on the rocky slopes, creating a stark contrast between the warm atmospheric haze and the cool blue tones of the deepening valleys below",
+    "As the bird completes its arc and ascends toward the right edge of the frame, the camera executes a smooth dolly-back movement to reveal more of the sprawling landscape, emphasizing the sheer scale of the peaks and the intricate network of ridges fading into the twilight mist",
+    "The ambient air shimmers with heat distortion near the ground, and the sound of a distant wind howling through the crags mixes with the soft, rhythmic flapping of the hawk's wings, grounding the serene visual stillness in a palpable sense of natural grandeur"
+  ],
+  "segments_zh": [
+    "摄影机以静态广角镜头开始，捕捉到广阔的锯齿状山峰，在天空下延伸至消失点，天空中闪烁着焦橙色、深洋红色和瘀紫色的渐变，而镜头慢慢开始轻轻向上倾斜，跟随一只从左上角潜入画面的鹰的轮廓，当它在崎岖、阴暗的地形上开辟出一条寂静的道路时，它的翅膀捕捉到了垂死的琥珀色光线。",
+    "低角度的阳光投射出长长的对角光束，穿过中地稀疏的高山松树，照亮了树皮的粗糙纹理和岩石斜坡上零散的积雪，在温暖的大气薄雾和下面加深的山谷的冷蓝色调之间形成了鲜明的对比",
+    "当鸟完成其弧线并向画面右边缘上升时，摄影机执行平滑的向后移动，以显示更多广阔的景观，强调山峰的巨大规模和逐渐消失在暮色薄雾中的复杂山脊网络",
+    "地面附近的周围空气闪烁着热力扭曲的光芒，远处的风呼啸着穿过峭壁，与鹰轻柔而有节奏的拍打翅膀的声音混合在一起，将宁静的视觉静止感融入到一种明显的自然宏伟感中。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

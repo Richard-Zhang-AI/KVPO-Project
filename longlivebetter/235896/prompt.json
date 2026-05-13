@@ -1,0 +1,20 @@
+{
+  "source_line_number": 235896,
+  "raw_line": "5,[A low-angle wide shot captures a heavily damaged concrete structure in Gaza with its upper floors partially collapsed, sending thick plumes of grey smoke spiraling into a bruised twilight sky, while flickering orange flames lick at the charred, cracked exterior walls where shards of shattered glass and twisted rebar jut out like jagged teeth],[A rescue worker wearing a faded yellow vest and heavy black boots walks slowly from the left edge of the frame into the center, pushing a metal stretcher that carries a figure wrapped in a white sheet, their movement causing the loose debris on the ground to shift slightly underfoot],[As the worker advances, the camera executes a slow dolly-in, gradually tightening the frame to focus on the determined set of their jaw and the rhythmic swaying of the stretcher against the backdrop of the burning ruins],[The ambient sound is a low rumble of distant explosions mixed with the crackling of fire, while the lighting shifts from the dim blue of dusk to the harsh, flickering glow of the inferno reflecting off the worker's helmet and the wet pavement],[The shot concludes with a steady handheld follow as the rescuer navigates a gap in the rubble, maintaining a continuous visual flow without any abrupt cuts]",
+  "segments": [
+    "A low-angle wide shot captures a heavily damaged concrete structure in Gaza with its upper floors partially collapsed, sending thick plumes of grey smoke spiraling into a bruised twilight sky, while flickering orange flames lick at the charred, cracked exterior walls where shards of shattered glass and twisted rebar jut out like jagged teeth",
+    "A rescue worker wearing a faded yellow vest and heavy black boots walks slowly from the left edge of the frame into the center, pushing a metal stretcher that carries a figure wrapped in a white sheet, their movement causing the loose debris on the ground to shift slightly underfoot",
+    "As the worker advances, the camera executes a slow dolly-in, gradually tightening the frame to focus on the determined set of their jaw and the rhythmic swaying of the stretcher against the backdrop of the burning ruins",
+    "The ambient sound is a low rumble of distant explosions mixed with the crackling of fire, while the lighting shifts from the dim blue of dusk to the harsh, flickering glow of the inferno reflecting off the worker's helmet and the wet pavement"
+  ],
+  "segments_zh": [
+    "低角度广角镜头捕捉到了加沙一座严重受损的混凝土结构，其上层部分倒塌，浓浓的灰色烟雾盘旋进入伤痕累累的暮色天空，而闪烁的橙色火焰舔舐着烧焦、开裂的外墙，破碎的玻璃碎片和扭曲的钢筋像锯齿状的牙齿一样伸出",
+    "一名救援人员穿着褪色的黄色背心和厚重的黑色靴子，从画面的左边缘慢慢走到中心，推着金属担架，担架上载着一个裹着白色床单的人，他们的动作导致地面上松散的碎片在脚下轻微移动",
+    "随着工人的前进，摄像机缓慢地推入，逐渐收紧画面，将焦点集中在他们坚定的下巴以及在燃烧的废墟背景下担架有节奏的摇摆上。",
+    "周围的声音是远处爆炸的低沉隆隆声，混合着火焰的噼啪声，而灯光从黄昏的暗蓝色转变为从工人的头盔和潮湿的人行道上反射出来的刺眼、闪烁的地狱光芒。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

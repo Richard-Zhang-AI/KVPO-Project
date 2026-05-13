@@ -1,0 +1,20 @@
+{
+  "source_line_number": 185328,
+  "raw_line": "5,[A high-angle crane shot descends slowly through a sky painted in shifting amber and burnt orange hues where thin cirrus clouds drift lazily, revealing the tops of a sprawling metropolis below],[As the camera continues its vertical descent, the golden sunlight breaks through the cloud layer, casting long, diagonal rays of warm light across the jagged silhouettes of modern glass skyscrapers and weathered stone spires that blend seamlessly into the urban canyon],[The view pushes further down through the air, transitioning smoothly into a bustling street market where the camera racks focus from the distant rooftops to a vendor in a vibrant indigo tunic who steps forward from the left edge of the frame, arranging a colorful array of woven baskets on a wooden table],[The vendor's hands move with practiced rhythm as they adjust the fabric covers, while the ambient hum of distant traffic and the rustling of silk robes fills the auditory space],[The camera executes a slow dolly-in toward the vendor's face, capturing the texture of his weathered skin and the gentle smile that mirrors the serene expression of the divine figure seen earlier in the sky]",
+  "segments": [
+    "A high-angle crane shot descends slowly through a sky painted in shifting amber and burnt orange hues where thin cirrus clouds drift lazily, revealing the tops of a sprawling metropolis below",
+    "As the camera continues its vertical descent, the golden sunlight breaks through the cloud layer, casting long, diagonal rays of warm light across the jagged silhouettes of modern glass skyscrapers and weathered stone spires that blend seamlessly into the urban canyon",
+    "The view pushes further down through the air, transitioning smoothly into a bustling street market where the camera racks focus from the distant rooftops to a vendor in a vibrant indigo tunic who steps forward from the left edge of the frame, arranging a colorful array of woven baskets on a wooden table",
+    "The vendor's hands move with practiced rhythm as they adjust the fabric covers, while the ambient hum of distant traffic and the rustling of silk robes fills the auditory space"
+  ],
+  "segments_zh": [
+    "一架高角度的起重机镜头缓缓下降，天空被涂上不断变化的琥珀色和焦橙色色调，薄薄的卷云懒洋洋地飘过，露出下面一座庞大大都市的顶部",
+    "当相机继续垂直下降时，金色的阳光突破云层，在现代玻璃摩天大楼和风化石塔的锯齿状轮廓上投射出长长的对角温暖光线，这些轮廓无缝地融入城市峡谷",
+    "画面在空中进一步向下延伸，平稳地过渡到熙熙攘攘的街头市场，摄像机架从远处的屋顶聚焦到一个穿着鲜艳的靛蓝长袍的小贩，他从画面的左边缘向前走来，在木桌上摆放着一排色彩缤纷的编织篮子",
+    "摊贩的双手以熟练的节奏调整布套，远处交通的嗡嗡声和丝绸长袍的沙沙声充满了听觉空间"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

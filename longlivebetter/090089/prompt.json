@@ -1,0 +1,20 @@
+{
+  "source_line_number": 90089,
+  "raw_line": "6,[A wide shot of a sun-drenched rustic kitchen reveals worn wooden cabinets and a heavy oak countertop where a large, silvery lake trout rests on a thick cutting board, the fish's scales shimmering with wet reflections under the warm afternoon light],[A chef wearing a crisp white apron stained with faint oil marks enters the frame from the left, carrying a heavy chef's knife with a polished steel blade that catches the light as he positions it above the fish],[The camera slowly dollies forward as the chef's hands, calloused and steady, grip the knife to make the first precise incision, separating the flesh from the bone while revealing the vibrant pink interior beneath the silver skin],[The sound of the blade slicing through the meat is crisp and rhythmic, accompanied by the soft creak of the wooden floorboards as the chef shifts his weight],[As the knife glides deeper, a small pool of clear blood begins to form on the grain of the board, highlighting the texture of the wood and the freshness of the catch],[The camera maintains a steady close-up on the cutting action, focusing sharply on the glistening texture of the fish and the chef's concentrated expression before slowly panning right to show the entire workspace]",
+  "segments": [
+    "A wide shot of a sun-drenched rustic kitchen reveals worn wooden cabinets and a heavy oak countertop where a large, silvery lake trout rests on a thick cutting board, the fish's scales shimmering with wet reflections under the warm afternoon light",
+    "A chef wearing a crisp white apron stained with faint oil marks enters the frame from the left, carrying a heavy chef's knife with a polished steel blade that catches the light as he positions it above the fish",
+    "The camera slowly dollies forward as the chef's hands, calloused and steady, grip the knife to make the first precise incision, separating the flesh from the bone while revealing the vibrant pink interior beneath the silver skin",
+    "The sound of the blade slicing through the meat is crisp and rhythmic, accompanied by the soft creak of the wooden floorboards as the chef shifts his weight"
+  ],
+  "segments_zh": [
+    "一张阳光普照的乡村厨房的广角镜头展示了破旧的木柜和厚重的橡木台面，厚厚的切菜板上搁着一条巨大的银色湖鳟鱼，鱼鳞在温暖的午后阳光下闪闪发光。",
+    "一位厨师穿着干净的白色围裙，上面沾着淡淡的油迹，从左边进入画面，手里拿着一把沉重的厨师刀，刀刃抛光钢，当他把它放在鱼上方时，它会捕捉到光线。",
+    "镜头慢慢向前移动，厨师长满老茧的双手稳稳地握住刀，做出第一个精确的切口，将肉与骨头分离，同时露出银色皮肤下充满活力的粉红色内部。",
+    "刀片切肉的声音清脆而有节奏，伴随着厨师移动体重时木地板发出的轻柔的吱吱声"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

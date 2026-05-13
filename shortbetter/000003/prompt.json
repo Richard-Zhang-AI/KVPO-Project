@@ -1,0 +1,14 @@
+{
+  "source_line_number": 3,
+  "raw_line": "{\"prompts\": [\"Behind him, the silhouette of a colossal demon with ten heads and twenty arms emerges from the swirling smoke of a distant fire, his skin burning with an unnatural crimson hue as he roars, causing the very ground beneath the throne to tremble violently\"]}",
+  "segments": [
+    "Behind him, the silhouette of a colossal demon with ten heads and twenty arms emerges from the swirling smoke of a distant fire, his skin burning with an unnatural crimson hue as he roars, causing the very ground beneath the throne to tremble violently"
+  ],
+  "segments_zh": [
+    "在他身后，一道十头二十臂的巨大恶魔身影，从远处火焰的烟雾中浮现出来，他的皮肤燃烧着不自然的猩红，他的咆哮让王座下方的地面剧烈颤抖。"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}

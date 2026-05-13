@@ -1,0 +1,20 @@
+{
+  "source_line_number": 248180,
+  "raw_line": "5,[The camera begins with a static, high-angle wide shot capturing the deep turquoise expanse of Phewa Lake under a pale morning sky, where the silhouette of Machhapuchre stands sharply against the horizon, its snow-capped peak catching the first faint glimmers of dawn],[Suddenly, a silver trout leaps violently from the depths near the center of the frame, breaking the glassy surface tension and sending a perfect ring of concentric ripples expanding outward in slow motion, distorting the reflection of the mountain briefly before settling back into stillness],[The camera executes a slow, deliberate dolly-in to the right, gliding over the water's surface as the ripples fade, revealing a solitary figure in a worn, earth-toned wool sweater sitting on a moss-covered stone ledge with their legs dangling just above the cool, clear water],[As the camera continues its smooth lateral movement, the rising sun climbs higher, intensifying the light to cast long, diagonal beams of golden-orange across the rugged granite face of Machhapuchre while the dense rhododendron forests clinging to the lower slopes burst into a vibrant, saturated green],[The serene atmosphere is punctuated only by the distant, melodic chirping of birds echoing through the valley, as the camera finally settles into a static medium shot that holds the fisherman and the glowing mountain range in a single, uninterrupted frame]",
+  "segments": [
+    "The camera begins with a static, high-angle wide shot capturing the deep turquoise expanse of Phewa Lake under a pale morning sky, where the silhouette of Machhapuchre stands sharply against the horizon, its snow-capped peak catching the first faint glimmers of dawn",
+    "Suddenly, a silver trout leaps violently from the depths near the center of the frame, breaking the glassy surface tension and sending a perfect ring of concentric ripples expanding outward in slow motion, distorting the reflection of the mountain briefly before settling back into stillness",
+    "The camera executes a slow, deliberate dolly-in to the right, gliding over the water's surface as the ripples fade, revealing a solitary figure in a worn, earth-toned wool sweater sitting on a moss-covered stone ledge with their legs dangling just above the cool, clear water",
+    "As the camera continues its smooth lateral movement, the rising sun climbs higher, intensifying the light to cast long, diagonal beams of golden-orange across the rugged granite face of Machhapuchre while the dense rhododendron forests clinging to the lower slopes burst into a vibrant, saturated green"
+  ],
+  "segments_zh": [
+    "摄影机以静态的高角度广角镜头开始，捕捉清晨苍白天空下深邃碧绿的费瓦湖，马赫普奇雷 (Machhapuchre) 的剪影矗立在地平线上，白雪皑皑的山峰捕捉到黎明的第一缕微光。",
+    "突然，一条银色的鳟鱼从画面中央附近的深处猛烈地跃起，打破了玻璃般的表面张力，发出一圈完美的同心波纹，以慢动作向外扩展，使山体的倒影短暂扭曲，然后又归于静止。",
+    "镜头缓慢地、从容地向右移动，随着涟漪消退，在水面上滑行，露出一个穿着破旧的大地色羊毛毛衣的孤独身影，坐在长满青苔的石壁上，双腿悬在清凉清澈的水面上。",
+    "当相机继续平稳的横向移动时，初升的太阳爬得更高，增强了光线，在马赫普赫雷崎岖的花岗岩表面上投射出金橙色的长对角光束，而紧贴较低山坡的茂密杜鹃花森林突然绽放出充满活力的饱和绿色"
+  ],
+  "expected_files": [
+    "old.mp4",
+    "new.mp4"
+  ]
+}
