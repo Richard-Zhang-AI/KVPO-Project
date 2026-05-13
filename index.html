@@ -1,1 +1,1059 @@
-111
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KVPO: ODE-Native GRPO for Autoregressive Video Alignment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg-top: #eef2f9;
+      --bg-mid: #f4f6fb;
+      --bg-bottom: #e8ecf4;
+      --paper: #ffffff;
+      --ink: #1a2332;
+      --muted: #5c6678;
+      --line: #dfe4ed;
+      --line-strong: #c9d1e0;
+      --blue: #2563eb;
+      --blue-deep: #1d4ed8;
+      --blue-soft: #e8efff;
+      --green: #0d9488;
+      --green-deep: #0f766e;
+      --green-soft: #e0f2f1;
+      --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.04);
+      --shadow: 0 8px 30px rgba(15, 23, 42, 0.07);
+      --shadow-lg: 0 20px 50px rgba(15, 23, 42, 0.1);
+      --radius: 12px;
+      --radius-lg: 16px;
+      --font: "DM Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 17px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-size: 1rem;
+      background: linear-gradient(165deg, var(--bg-top) 0%, var(--bg-mid) 42%, var(--bg-bottom) 100%);
+      background-attachment: fixed;
+      color: var(--ink);
+      font-family: var(--font);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .sidebar {
+      position: fixed;
+      inset: 0 auto 0 0;
+      z-index: 10;
+      width: 252px;
+      padding: 32px 20px;
+      background: linear-gradient(180deg, #ffffff 0%, #fafbfd 100%);
+      border-right: 1px solid var(--line);
+      box-shadow: 4px 0 32px rgba(15, 23, 42, 0.06);
+    }
+
+    .sidebar-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 28px;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--line);
+      font-family: var(--font);
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+
+    .sidebar-logo,
+    .title-logo {
+      display: block;
+      flex-shrink: 0;
+      object-fit: contain;
+    }
+
+    .sidebar-logo {
+      width: 34px;
+      height: 34px;
+    }
+
+    .title-logo {
+      display: inline-block;
+      width: 52px;
+      height: 52px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 4px;
+    }
+
+    .sidebar a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 40px;
+      padding: 0 12px;
+      border-radius: 10px;
+      color: #475569;
+      font-size: 15px;
+      font-weight: 600;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+
+    .sidebar a:hover {
+      background: var(--blue-soft);
+      color: var(--blue-deep);
+    }
+
+    .sidebar a:focus-visible {
+      outline: 2px solid var(--blue);
+      outline-offset: 2px;
+    }
+
+    .content {
+      width: calc(100% - 252px);
+      margin-left: 252px;
+      padding: 36px 28px 64px;
+    }
+
+    .paper-info {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 44px 48px 52px;
+      background: linear-gradient(180deg, #ffffff 0%, #fcfcfe 100%);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow), 0 1px 0 rgba(255, 255, 255, 0.8) inset;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      max-width: 960px;
+      margin: 0 auto 26px;
+      text-align: center;
+      font-family: var(--font);
+      font-size: clamp(28px, 3.6vw, 44px);
+      line-height: 1.2;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+    }
+
+    .gradient-title {
+      background: linear-gradient(120deg, var(--blue-deep) 0%, #0891b2 55%, var(--green-deep) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .authors {
+      text-align: center;
+      max-width: 960px;
+      margin: 0 auto 22px;
+      color: #334155;
+    }
+
+    .authors-inner {
+      display: inline-block;
+      text-align: center;
+      max-width: 100%;
+    }
+
+    .author-line {
+      margin: 0.4em 0;
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      line-height: 1.55;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+
+    .author-line sup:not(.thanks-star) {
+      font-size: 0.68em;
+      font-weight: 700;
+      color: #64748b;
+      margin-left: 1px;
+      vertical-align: super;
+    }
+
+    .thanks-star {
+      font-size: 0.7em;
+      font-weight: 700;
+      color: var(--blue-deep);
+      margin-left: 2px;
+      vertical-align: super;
+    }
+
+    .author-sep::before {
+      content: "·";
+      margin: 0 0.45em;
+      font-weight: 500;
+      color: #94a3b8;
+    }
+
+    .author-thanks-block {
+      margin: 0.65em 0 0.75em;
+    }
+
+    .author-thanks {
+      margin: 2px 0;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--muted);
+    }
+
+    .author-thanks .thanks-star {
+      margin-right: 3px;
+      margin-left: 0;
+    }
+
+    .affiliations-line {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 500;
+      color: #475569;
+      line-height: 1.55;
+    }
+
+    .affil-item sup {
+      font-size: 0.75em;
+      font-weight: 700;
+      color: #64748b;
+      margin-right: 2px;
+    }
+
+    .affil-sep::before {
+      content: "·";
+      margin: 0 0.5em;
+      color: #94a3b8;
+    }
+
+    .resource-badges {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin: 0 0 18px;
+    }
+
+    .resource-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 42px;
+      padding: 0 18px;
+      border-radius: 999px;
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      border: 1px solid var(--line-strong);
+      background: #fff;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+    }
+
+    .resource-link:hover {
+      transform: translateY(-1px);
+      box-shadow: var(--shadow);
+    }
+
+    .resource-link:focus-visible {
+      outline: 2px solid var(--blue);
+      outline-offset: 3px;
+    }
+
+    .resource-arxiv {
+      color: #5c1a1a;
+      border-color: #e8c9c9;
+      background: #fffafa;
+    }
+
+    .resource-arxiv:hover {
+      color: #fff;
+      background: #B31B1B;
+      border-color: #9a1818;
+    }
+
+    .resource-arxiv .arxiv-mark {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2px 7px 3px;
+      border-radius: 4px;
+      background: #B31B1B;
+      color: #fff;
+      font-family: "Times New Roman", Times, Georgia, serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 1;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+
+    .resource-arxiv:hover .arxiv-mark {
+      background: #fff;
+      color: #B31B1B;
+    }
+
+    .resource-github {
+      color: #1f2937;
+      border-color: #d1d9e6;
+      background: #f8fafc;
+    }
+
+    .resource-github:hover {
+      color: #fff;
+      background: #24292f;
+      border-color: #24292f;
+    }
+
+    .resource-icon {
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 24px 0 36px;
+    }
+
+    .links a,
+    .speed-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 0 18px;
+      border-radius: 999px;
+      border: 1px solid var(--line-strong);
+      background: #fff;
+      color: #334155;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+    }
+
+    .links a:hover,
+    .speed-btn.active,
+    .speed-btn:hover {
+      border-color: var(--blue);
+      background: linear-gradient(135deg, var(--blue) 0%, var(--blue-deep) 100%);
+      color: #fff;
+      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
+      transform: translateY(-1px);
+    }
+
+    .links a:focus-visible,
+    .speed-btn:focus-visible {
+      outline: 2px solid var(--blue);
+      outline-offset: 3px;
+    }
+
+    section {
+      margin-top: 44px;
+      scroll-margin-top: 24px;
+    }
+
+    section h2 {
+      margin: 0 0 20px;
+      text-align: center;
+      font-family: var(--font);
+      font-size: clamp(24px, 2.8vw, 30px);
+      line-height: 1.22;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+
+    section > p,
+    .method-caption {
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #3d4a5c;
+      font-size: 1rem;
+      text-align: justify;
+    }
+
+    .tldr-section {
+      padding: 26px 28px;
+      border-radius: var(--radius);
+      background: linear-gradient(145deg, #f0f7ff 0%, #f8fbff 50%, #f4f9ff 100%);
+      border: 1px solid #c7dbfa;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .method-image {
+      display: block;
+      width: min(100%, 930px);
+      margin: 12px auto 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      box-shadow: var(--shadow);
+    }
+
+    .method-caption {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .gallery-section > p {
+      text-align: center;
+      color: #666;
+      margin-bottom: 16px;
+    }
+
+    .demo-toolbar {
+      max-width: 900px;
+      margin: 0 auto 24px;
+      padding: 18px 20px 20px;
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .speed-controls {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 16px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .speed-label {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    .speed-btn {
+      min-height: 34px;
+      padding: 0 14px;
+      font: inherit;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 0;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      min-height: 38px;
+      padding: 0 16px;
+      border-radius: 999px;
+      border: 1px solid var(--line-strong);
+      background: #fff;
+      color: #475569;
+      font: inherit;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+    }
+
+    .tab:hover {
+      border-color: var(--green);
+      color: var(--green-deep);
+      transform: translateY(-1px);
+    }
+
+    .tab.active {
+      background: linear-gradient(135deg, var(--green) 0%, var(--green-deep) 100%);
+      border-color: transparent;
+      color: #fff;
+      box-shadow: 0 6px 18px rgba(13, 148, 136, 0.35);
+    }
+
+    .tab.active:hover {
+      color: #fff;
+      border-color: transparent;
+    }
+
+    .tab:focus-visible {
+      outline: 2px solid var(--green);
+      outline-offset: 3px;
+    }
+
+    .demo-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 24px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .demo-card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--paper);
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow 0.22s ease, transform 0.22s ease, border-color 0.22s ease;
+    }
+
+    .demo-card:hover {
+      border-color: #cdd6e8;
+      box-shadow: var(--shadow);
+      transform: translateY(-2px);
+    }
+
+    .demo-card.hidden {
+      display: none;
+    }
+
+    .demo-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #fafbfd 0%, #f4f6f9 100%);
+    }
+
+    .demo-meta strong {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+    }
+
+    .tag {
+      display: inline-flex;
+      min-height: 26px;
+      align-items: center;
+      padding: 0 11px;
+      border-radius: 999px;
+      background: var(--green-soft);
+      color: var(--green-deep);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .comparison-labels {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(90deg, #f1f5f9 0%, #f8fafc 50%, #ecfdf5 100%);
+    }
+
+    .comparison-labels span {
+      padding: 10px 14px;
+      text-align: center;
+      color: #475569;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .comparison-labels span + span {
+      border-left: 1px solid var(--line);
+      color: var(--green-deep);
+    }
+
+    .comparison-video {
+      position: relative;
+      min-width: 0;
+      background: linear-gradient(180deg, #0f172a 0%, #020617 100%);
+    }
+
+    .comparison-video-cells {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-width: 0;
+    }
+
+    .comparison-video-cells video {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      background: #111827;
+    }
+
+    .comparison-video-cells video + video {
+      border-left: 1px solid var(--line);
+    }
+
+    .prompt-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      display: grid;
+      grid-template: 1fr / 1fr;
+      place-items: stretch;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 0.22s ease, visibility 0s linear 0.22s;
+    }
+
+    .comparison-video:hover .prompt-overlay {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transition: opacity 0.22s ease, visibility 0s linear 0s;
+    }
+
+    .prompt-overlay-scrim {
+      grid-area: 1 / 1;
+      background: rgba(15, 23, 42, 0.78);
+    }
+
+    .prompt-overlay-content {
+      grid-area: 1 / 1;
+      z-index: 1;
+      overflow: auto;
+      padding: 12px 14px 14px;
+      font-size: 13px;
+      line-height: 1.48;
+      text-align: justify;
+      color: #e2e8f0;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .prompt-overlay-content .prompt-seg {
+      margin: 8px 0 0;
+      color: #cbd5e1;
+    }
+
+    .prompt-overlay-content .prompt-seg:first-child {
+      margin-top: 0;
+    }
+
+    .prompt-overlay-content .prompt-seg strong {
+      color: #f8fafc;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .prompt-overlay {
+        transition: none;
+      }
+
+      .demo-card,
+      .demo-card:hover,
+      .links a,
+      .resource-link,
+      .speed-btn,
+      .tab {
+        transition: none;
+      }
+
+      .demo-card:hover,
+      .links a:hover,
+      .resource-link:hover,
+      .speed-btn.active,
+      .speed-btn:hover,
+      .tab:hover {
+        transform: none;
+      }
+
+      body {
+        background-attachment: scroll;
+      }
+    }
+
+    @media (hover: none) {
+      .comparison-video:active .prompt-overlay {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transition: opacity 0.22s ease, visibility 0s linear 0s;
+      }
+
+      .demo-card:hover {
+        transform: none;
+      }
+    }
+
+    .citation-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .citation-box {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+      overflow: auto;
+      box-shadow: var(--shadow-sm);
+    }
+
+    pre {
+      margin: 0;
+      padding: 16px 18px;
+      color: #334155;
+      font-size: 14px;
+      line-height: 1.48;
+      white-space: pre-wrap;
+    }
+
+    .ack {
+      margin-top: 18px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    @media (max-width: 980px) {
+      .sidebar {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: auto;
+        padding: 12px 16px;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .sidebar-title {
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+
+      .sidebar ul {
+        display: flex;
+        overflow-x: auto;
+        gap: 8px;
+        padding-bottom: 2px;
+      }
+
+      .sidebar a {
+        white-space: nowrap;
+      }
+
+      .content {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px 14px 42px;
+      }
+
+      .paper-info {
+        padding: 28px 20px 38px;
+      }
+
+      .demo-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .demo-toolbar {
+        padding: 14px 14px 16px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .title-logo {
+        width: 42px;
+        height: 42px;
+      }
+
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <h2 class="sidebar-title"><img class="sidebar-logo" src="framework/kvpo_loge.png" width="34" height="34" alt="KVPO"> KVPO</h2>
+    <ul>
+      <li><a href="#abstract">Abstract</a></li>
+      <li><a href="#method">Method</a></li>
+      <li><a href="#demos">Demos</a></li>
+      <li><a href="#citation">Citation</a></li>
+    </ul>
+  </aside>
+
+  <main class="content">
+    <div class="paper-info">
+      <h1><img class="title-logo" src="framework/kvpo_loge.png" width="52" height="52" alt="KVPO"><span class="gradient-title">KVPO</span>: ODE-Native GRPO for Autoregressive Video Alignment via KV Semantic Exploration</h1>
+
+      <div class="authors">
+        <div class="authors-inner">
+          <p class="author-line">
+            Ruicheng Zhang<sup>1,3</sup><span class="author-sep"></span>Kaixi Cong<sup>1</sup><span class="author-sep"></span>Jun Zhou<sup>1</sup><span class="author-sep"></span>Zhizhou Zhong<sup>2,3</sup>
+          </p>
+          <p class="author-line">
+            Zunnan Xu<sup>1</sup><span class="author-sep"></span>Shuiyang Mao<sup>3</sup><sup class="thanks-star">*</sup><span class="author-sep"></span>Wei Liu<sup>3</sup><span class="author-sep"></span>Xiu Li<sup>1</sup><sup class="thanks-star">†</sup>
+          </p>
+          <div class="author-thanks-block">
+            <p class="author-thanks"><sup class="thanks-star">*</sup> Project leader.</p>
+            <p class="author-thanks"><sup class="thanks-star">†</sup> Corresponding author.</p>
+          </div>
+          <p class="affiliations-line">
+            <span class="affil-item"><sup>1</sup> Tsinghua University</span><span class="affil-sep"></span><span class="affil-item"><sup>2</sup> HKUST</span><span class="affil-sep"></span><span class="affil-item"><sup>3</sup> Video Rebirth</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="resource-badges" aria-label="Paper and code links">
+        <a class="resource-link resource-arxiv" href="https://arxiv.org/abs/2605.01428" target="_blank" rel="noopener noreferrer">
+          <span class="arxiv-mark" aria-hidden="true">arXiv</span>
+          <span>Paper</span>
+        </a>
+        <a class="resource-link resource-github" href="https://github.com/Richard-Zhang-AI/KVPO" target="_blank" rel="noopener noreferrer">
+          <svg class="resource-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+
+      <div class="links">
+        <a href="#abstract">Abstract</a>
+        <a href="#method">Method</a>
+        <a href="#demos">Demo</a>
+      </div>
+
+      <section id="abstract" class="abstract-section tldr-section">
+        <h2>Abstract</h2>
+        <p>
+          Aligning streaming autoregressive (AR) video generators with human preferences is challenging. Existing reinforcement learning methods predominantly rely on noise-based exploration and SDE-based surrogate policies that are mismatched to the deterministic ODE dynamics of distilled AR models, and tend to perturb low-level appearance rather than the high-level semantic storyline progression critical for long-horizon coherence. To address these limitations, we present <strong>KVPO</strong>, an ODE-native online Group Relative Policy Optimization (GRPO) framework for aligning streaming video generators. For diversity exploration, <strong>KVPO</strong> introduces a causal-semantic exploration paradigm that relocates the source of variation from stochastic noise to the historical KV cache. By stochastically routing historical KV entries, it constructs semantically diverse generation branches that remain strictly on the data manifold. For policy modeling, <strong>KVPO</strong> introduces a velocity-field surrogate policy based on Trajectory Velocity Energy (TVE), which quantifies branch likelihood in flow-matching velocity space and yields a reward-weighted contrastive objective fully consistent with the native ODE formulation. Experiments on multiple distilled AR video generators demonstrate consistent gains in visual quality, motion quality, and text-video alignment across both single-prompt short-video and multi-prompt long-video settings.
+        </p>
+      </section>
+
+      <section id="method" class="method-section">
+        <h2>Method Overview</h2>
+        <img class="method-image" src="framework/framework.png" alt="Overview of the KVPO training pipeline: exploration, TVE scoring, and contrastive flow-matching updates">
+        <p class="method-caption">
+          <strong>Overview of the KVPO training pipeline.</strong> Starting from a shared initial noise, the model first performs causal-semantic exploration via stochastic KV routing within a perturbed window to produce diverse candidate branches (a). These branches are then replayed under the unperturbed deployment-time context, where the Trajectory Velocity Energy of each branch is computed and converted into Gibbs-form surrogate branch probabilities to measure their generation likelihood under the current policy (b). Finally, the branches are scored by the reward model, and PPO updates the AR generator toward higher-reward behaviors via a contrastive flow-matching objective (c).
+        </p>
+      </section>
+
+      <section id="demos" class="gallery-section">
+        <h2>Demos</h2>
+
+        <div class="demo-toolbar">
+        <div class="speed-controls" role="group" aria-label="Playback speed">
+          <span class="speed-label">Play speed</span>
+          <button class="speed-btn" type="button" data-speed="1">x1</button>
+          <button class="speed-btn active" type="button" data-speed="2">x2</button>
+          <button class="speed-btn" type="button" data-speed="4">x4</button>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Demo filters">
+          <button class="tab active" type="button" data-filter="all">All</button>
+          <button class="tab" type="button" data-filter="longlive">LongLive</button>
+          <button class="tab" type="button" data-filter="memflow">MemFlow</button>
+          <button class="tab" type="button" data-filter="short">Short</button>
+        </div>
+        </div>
+
+        <div class="demo-grid" id="demoGrid"></div>
+      </section>
+
+      <section id="citation" class="contact-us">
+        <h2>Citation</h2>
+        <p style="text-align: center; margin-bottom: 14px;">If you find this work useful, please consider citing:</p>
+        <div class="citation-container">
+          <div class="citation-box">
+<pre>@inproceedings{kvpo2026,
+  title={KVPO: ODE-Native GRPO for Autoregressive Video Alignment via KV Semantic Exploration},
+  author={Zhang, Ruicheng and Cong, Kaixi and Zhou, Jun and Zhong, Zhizhou and Xu, Zunnan and Mao, Shuiyang and Liu, Wei and Li, Xiu},
+  year={2026}
+}</pre>
+          </div>
+        </div>
+        <p class="ack">This project page follows the layout style of academic video generation demo pages.</p>
+      </section>
+    </div>
+  </main>
+
+  <script src="prompts.js"></script>
+  <script>
+    const demoGroups = [
+      {
+        group: "longlive",
+        baseline: "LongLive",
+        folder: "longlivebetter",
+        tag: "Long video",
+        ids: [
+          "012345", "057455", "060874", "090089",
+          "118186", "151715", "153153", "155349", "158314",
+          "200683", "211859", "217694", "235896",
+          "248180", "248213"
+        ]
+      },
+      {
+        group: "memflow",
+        baseline: "MemFlow",
+        folder: "memflowbetter",
+        tag: "Motion flow",
+        ids: [
+          "008476", "020031", "069715", "077666", "106224",
+          "106588", "114972", "117787", "123425", "129808", "137617", "140959",
+          "164655", "169239", "185328", "210072",
+          "228469", "230459", "241279", "243169"
+        ]
+      },
+      {
+        group: "short",
+        baseline: "Short",
+        folder: "shortbetter",
+        tag: "Short video",
+        ids: ["000003", "000008", "000042", "000050"]
+      }
+    ];
+
+    const promptHints = {
+      longlive: "Long-form prompt with multiple temporal segments, evaluating scene consistency, motion quality, and semantic progression.",
+      memflow: "Motion-centric prompt, evaluating visual stability, object dynamics, and text-video alignment.",
+      short: "Short-video prompt, evaluating concise visual quality and prompt adherence."
+    };
+
+    function escapeHtml(text) {
+      return String(text)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function formatPrompt(text) {
+      const clean = String(text).replace(/\s+/g, " ").trim();
+      const parts = clean.split(/(?=\[seg\d+\])/i).filter(Boolean);
+      if (!parts.length) {
+        return `<p class="prompt-seg">${escapeHtml(clean)}</p>`;
+      }
+      return parts.map((part) => {
+        const match = part.match(/^\[(seg\d+)\]\s*(.*)$/i);
+        if (!match) {
+          return `<p class="prompt-seg">${escapeHtml(part)}</p>`;
+        }
+        return `<p class="prompt-seg"><strong>[${escapeHtml(match[1])}]</strong> ${escapeHtml(match[2])}</p>`;
+      }).join("");
+    }
+
+    const demos = demoGroups.flatMap((group) => group.ids.map((id) => ({
+      group: group.group,
+      baseline: group.baseline,
+      tag: group.tag,
+      id,
+      old: `${group.folder}/${id}/old.mp4`,
+      current: `${group.folder}/${id}/new.mp4`,
+      prompt: window.KVPO_PROMPTS?.[`${group.group}:${id}`] || promptHints[group.group]
+    })));
+
+    const grid = document.querySelector("#demoGrid");
+
+    function renderDemos() {
+      grid.innerHTML = demos.map((item) => `
+        <article class="demo-card" data-group="${item.group}">
+          <div class="demo-meta">
+            <strong>${item.baseline}</strong>
+            <span class="tag">${item.tag}</span>
+          </div>
+          <div class="comparison-labels">
+            <span>${item.baseline}</span>
+            <span>KVPO</span>
+          </div>
+          <div class="comparison-video">
+            <div class="comparison-video-cells">
+              <video src="${item.old}" autoplay muted loop playsinline controls preload="metadata" data-demo-video></video>
+              <video src="${item.current}" autoplay muted loop playsinline controls preload="metadata" data-demo-video></video>
+            </div>
+            <div class="prompt-overlay" aria-hidden="true">
+              <div class="prompt-overlay-scrim" aria-hidden="true"></div>
+              <div class="prompt-overlay-content">${formatPrompt(item.prompt)}</div>
+            </div>
+          </div>
+        </article>
+      `).join("");
+      wireDemoVideosForLoop();
+    }
+
+    function wireDemoVideosForLoop() {
+      document.querySelectorAll("#demoGrid video[data-demo-video]").forEach((video) => {
+        video.loop = true;
+        video.muted = true;
+        video.playsInline = true;
+        video.addEventListener("ended", () => {
+          video.currentTime = 0;
+          const p = video.play();
+          if (p !== undefined) p.catch(() => {});
+        });
+      });
+    }
+
+    function setFilter(filter) {
+      document.querySelectorAll(".tab").forEach((button) => {
+        button.classList.toggle("active", button.dataset.filter === filter);
+      });
+      document.querySelectorAll(".demo-card").forEach((card) => {
+        card.classList.toggle("hidden", filter !== "all" && card.dataset.group !== filter);
+      });
+    }
+
+    function setSpeed(speed) {
+      document.querySelectorAll(".speed-btn").forEach((button) => {
+        button.classList.toggle("active", button.dataset.speed === String(speed));
+      });
+      document.querySelectorAll("video").forEach((video) => {
+        video.playbackRate = Number(speed);
+      });
+    }
+
+    renderDemos();
+    setSpeed(2);
+    document.querySelectorAll(".tab").forEach((button) => {
+      button.addEventListener("click", () => setFilter(button.dataset.filter));
+    });
+    document.querySelectorAll(".speed-btn").forEach((button) => {
+      button.addEventListener("click", () => setSpeed(button.dataset.speed));
+    });
+  </script>
+</body>
+</html>
